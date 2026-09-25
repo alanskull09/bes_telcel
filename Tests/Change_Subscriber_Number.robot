@@ -17,13 +17,13 @@ Cambio de Numero
     ...    *Precondition:*
     ...    1. Credenciales de acceso validas del usuario al CRM.
     ...    2. Numero de suscriptor Pospago valido.
-    ...
+    ...    
     ...    *Test Data:*
     ...    1. Credenciales de acceso validas del usuario al CRM.
     ...    2. Numero de suscriptor abierto valido.
     ...    3. Linea sin adeudos.
     [Setup]    Leer Datos    ${EXECDIR}\\Data\\Change_Subscriber_Number\\TD_CSN_01
     Given Login y Busqueda De Suscriptor
-    Then Cambio de Numero
+    Then Cambio de Numero 
     Then Verificacion de Detalles de Tarifa con Impresion de contratos
-    And Logout De BES
+    And Logout De BES    

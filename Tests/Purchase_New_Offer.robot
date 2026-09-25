@@ -13,7 +13,7 @@ Activacion Cliente Nuevo
     ...    *Precondition:*
     ...    1. Credenciales de acceso validas del usuario al CRM.
     ...    2. CURP Nueva sin asignar
-    ...
+    ...    
     ...    *Test Data:*
     ...    1. Credenciales de acceso validas del usuario al CRM.
     ...    2. Numero de suscriptor valido.

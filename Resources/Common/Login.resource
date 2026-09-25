@@ -35,8 +35,7 @@ Login BES
     Input Text    ${LOGIN}[PASSWORD]    ${password}
     verify_element_is_present    ${LOGIN}[BTN_SIGNIN]
     Step   Login BES
-    # Click Button    ${LOGIN}[BTN_SIGNIN]
-    click_con_JS    ${LOGIN}[BTN_SIGNIN]
+    Click Button    ${LOGIN}[BTN_SIGNIN]
     ${status}    Run Keyword and Return Status     verify_element_is_present      ${LOGIN}[MSG_WELCOME]
     Sleep    4s
     Run Keyword If    '${status}'=='True'    Step    acceso correcto a BES CRM   

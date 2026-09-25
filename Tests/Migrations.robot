@@ -9,11 +9,11 @@ Resource    ../Resources/Migrations_Offer/Migrations.resource
 *** Test Cases ***
 Migracion Abierto a Controlado Sin Equipo
         [Documentation]   Se realiza la migracion de suscriptor de Abierto a Controlado
-    ...    y Controlado a Abierto
+    ...    y Controlado a Abierto    
     ...    *Precondition:*
     ...    1. Credenciales de acceso validas del usuario al CRM.
     ...    2. Numero de suscriptor Pospago valido.
-    ...
+    ...    
     ...    *Test Data:*
     ...    1. Credenciales de acceso validas del usuario al CRM.
     ...    2. Numero de suscriptor abierto valido.
@@ -26,11 +26,11 @@ Migracion Abierto a Controlado Sin Equipo
 
 Migracion Prepago a Abierto Sin Equipo
         [Documentation]   Se realiza la migracion de suscriptor de Prepago a Abierto
-    ...    y Prepago a Controlado
+    ...    y Prepago a Controlado    
     ...    *Precondition:*
     ...    1. Credenciales de acceso validas del usuario al CRM.
     ...    2. Numero de suscriptor Pospago valido.
-    ...
+    ...    
     ...    *Test Data:*
     ...    1. Credenciales de acceso validas del usuario al CRM.
     ...    2. Numero de suscriptor abierto valido.
@@ -43,11 +43,11 @@ Migracion Prepago a Abierto Sin Equipo
 
 Migracion Pospago a Prepago Sin Equipo
         [Documentation]   Se realiza la migracion de suscriptor de Prepago a Abierto
-    ...    y Prepago a Controlado
+    ...    y Prepago a Controlado    
     ...    *Precondition:*
     ...    1. Credenciales de acceso validas del usuario al CRM.
     ...    2. Numero de suscriptor Pospago valido.
-    ...
+    ...    
     ...    *Test Data:*
     ...    1. Credenciales de acceso validas del usuario al CRM.
     ...    2. Numero de suscriptor abierto valido.
@@ -56,4 +56,4 @@ Migracion Pospago a Prepago Sin Equipo
     Given Login y Busqueda De Suscriptor
     Then Migracion Pospago a Prepago Sin Equipo
     Then Verificacion de Detalles de Tarifa con Impresion de contratos
-    And Logout De BES
+    And Logout De BES      

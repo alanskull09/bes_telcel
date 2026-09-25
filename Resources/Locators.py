@@ -3,78 +3,65 @@ def createinput(ref):
     l_input = '//input[' + ref + ']'
     return l_input
 
-
 def createbutton(ref):
     l_button = '//button[contains(.,"' + ref + '")]'
     return l_button
-
 
 def createelement(ref):
     l_element = '//div[contains(.,"' + ref + '")]'
     return l_element
 
-
 def weirdbutton(ref):
     w_button = '//div//span[@id="' + ref + '"]'
     return w_button
-
 
 def createframe(ref):
     l_frame = '//iframe[@src[contains(.,"' + ref + '")]]'
     return l_frame
 
-
 def createtitle(ref):
     l_title = '//*[@title="' + ref + '"]'
     return l_title
-
 
 def createoption(ref):
     l_option = '//span[contains(text(),"' + ref + '")] | //div[(text()="' + ref + '")]'
     return l_option
 
-
 def createrecharge(ref):
     l_recharge = '//div[(text()="' + ref + '")]'
     return l_recharge
-
 
 def createoption2(ref):
     l_option = '//span[contains(.,"' + ref + '")]'
     return l_option
 
-
 def createshortcut(ref):
     l_shortcut = '//div//a[contains(.,"' + ref + '")]'
     return l_shortcut
-
 
 def createlabel(ref):
     l_label = '//label/span[@title="' + ref + '"]'
     return l_label
 
-
 def createradiobtn(ref):
     l_radio = '//input[@type="radio"]//following::label/span[@title="' + ref + '"]'
     return l_radio
-
 
 def createfocus(ref):
     l_focus = '//div/span[contains(.,"' + ref + '")]'
     return l_focus
 
-
 def deleteoffer(ref):
-    l_offer = '//*[@id=\"besColResizer0\"]/tbody/tr/td//div/a[@title=\"' + ref + '\"]/following::button[1]'
+    l_offer = '//*[@id="besColResizer0"]/tbody/tr/td//div/a[@title="' + ref + '"]/following::button[1]'
     return l_offer
-
 
 def dropdownOption(ref):
     l_option = '//option[@value=' + ref + ']'
     return l_option
 
+
 SYSTEM = {
-    "URL": "https://10.59.10.198:12900/oc/bes/sm/login/login.html?logoutReason=SessionInvalid",
+    "URL": "https://10.59.10.213/oc/bes/sm/portal/home.html",
     "BROWSER": "Chrome",
     "WINDOW": "MAIN",
     "TIMEOUT_500": "500s",
@@ -155,7 +142,6 @@ LOGIN = {
     "MSG_LAUNCH": "Something went wrong with Login Page",
     "MSG_WELCOME": "//div[@id='tip_footdiv']//div[@title='¡Bienvenido al sistema!']",
     "BTN_CONTINUAR": "//button[@id=\"loggedinLoginBtn_second\"]"
-
 }
 
 NAVIGATION = {
@@ -264,7 +250,6 @@ CHANGE_PRIMARY_OFFER = {
     "CONFIRM_BILL_BTN": "//button[@id='btn_saveContactEntitybillContactEntitypaymentchannelpopaddaccountpop']//span[@class='ng-binding ng-scope'][normalize-space()='Confirmar']",
     "DROPDOWN_ENVIO_FAC": "//label[@title='Tipo de Contacto']/following::input[@title= 'Envío de factura']",
     "TERM": "//label[@title='Plazo']/following::input[@type='search' and contains(@class, 'hlds-input')][1]",
-          
 }
 
 CHANGE_SUPPLEMENTARY_OFFER = {
@@ -420,4 +405,12 @@ MIGRATIONS = {
     "LOYALTY_POINTS" : "//div[@id='loyaltyPoints']",
     "PROCEDURE_RADIO_BTN" : "//label[@class='hlds-radio__label']//span[contains(@title,'{}')]",
     "LBL_TRAMIT" : "//span[normalize-space()='TIPO DE TRÁMITE']",
+}
+
+ABE = {
+    "INPUT_BUSQUEDA": "id:uee-002",
+    "OPCION_NINGUNO": "xpath://span[@title='NINGUNO']",
+    "BTN_FINGERPRINT": "id:btn_fingerPrint",
+    "BTN_OK_MSGBOX": "xpath://div[contains(@class, 'msgbox-ok-text') and text()='OK']",
+    "BTN_SIGUIENTE": "id:btn_next"
 }

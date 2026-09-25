@@ -1,79 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.3.2 (Python 3.11.5 on win32)" generated="2026-09-23T14:31:50.604429" rpa="false" schemaversion="5">
-<suite id="s1" name="Bes Telcel" source="c:\ProyectosTelcel\bes_telcel">
-<suite id="s1-s1" name="Tests" source="c:\ProyectosTelcel\bes_telcel\Tests">
-<suite id="s1-s1-s1" name="Change Primary Offer" source="c:\ProyectosTelcel\bes_telcel\Tests\Change_Primary_Offer.robot">
+<robot generator="Robot 7.5 (Python 3.11.5 on win32)" generated="2026-09-25T11:51:46.042402" rpa="false" schemaversion="5">
+<suite id="s1" name="Bes Telcel" source="C:\Telcel\Automatización\bes_telcel">
+<suite id="s1-s1" name="Tests" source="C:\Telcel\Automatización\bes_telcel\Tests">
+<suite id="s1-s1-s1" name="Change Primary Offer" source="C:\Telcel\Automatización\bes_telcel\Tests\Change_Primary_Offer.robot">
 <test id="s1-s1-s1-t1" name="Cambio Oferta Primaria Sin Equipo" line="10">
 <kw name="Leer Datos" owner="Excel" type="SETUP">
-<msg time="2026-09-23T14:31:53.400270" level="INFO">${user_name} = 99909</msg>
-<msg time="2026-09-23T14:31:53.403318" level="INFO">${password} = Abc1234%</msg>
-<msg time="2026-09-23T14:31:53.403318" level="INFO">${menu_section} = Operaciones Integradas</msg>
-<msg time="2026-09-23T14:31:53.403318" level="INFO">${menu_option} = Cambio de Oferta Primaria</msg>
-<msg time="2026-09-23T14:31:53.404849" level="INFO">${search_by} = CURP</msg>
-<msg time="2026-09-23T14:31:53.404849" level="INFO">${search_value} = WOHM790806MCLXYZ12</msg>
-<msg time="2026-09-23T14:31:53.404849" level="INFO">${type_offer} = Cambio de plan</msg>
-<msg time="2026-09-23T14:31:53.404849" level="INFO">${type_project} = NINGUNO</msg>
-<msg time="2026-09-23T14:31:53.404849" level="INFO">${primary_offer} = TELCEL LIBRE 1</msg>
-<msg time="2026-09-23T14:31:53.404849" level="INFO">${add_supp_offer} = NO</msg>
-<msg time="2026-09-23T14:31:53.404849" level="INFO">${remove_supp_offer} = NO</msg>
-<msg time="2026-09-23T14:31:53.404849" level="INFO">${supplementary_offer} = ANDROIDVM</msg>
-<msg time="2026-09-23T14:31:53.404849" level="INFO">${device} = NO</msg>
-<msg time="2026-09-23T14:31:53.404849" level="INFO">${new_device} = 70016568</msg>
-<msg time="2026-09-23T14:31:53.404849" level="INFO">${search_device_by} = SKU</msg>
-<msg time="2026-09-23T14:31:53.404849" level="INFO">${period_device} = 24</msg>
-<msg time="2026-09-23T14:31:53.404849" level="INFO">${print_reason} = Solicitud del Cliente</msg>
-<msg time="2026-09-23T14:31:53.404849" level="INFO">${type_print} = Impresión local</msg>
-<msg time="2026-09-23T14:31:53.404849" level="INFO">['user_name', 'password', 'menu_section', 'menu_option', 'search_by', 'search_value', 'type_offer', 'type_project', 'primary_offer', 'add_supp_offer', 'remove_supp_offer', 'supplementary_offer', 'device', 'new_device', 'search_device_by', 'period_device', 'print_reason', 'type_print'] ['99909', 'Abc1234%', 'Operaciones Integradas', 'Cambio de Oferta Primaria', 'CURP', 'WOHM790806MCLXYZ12', 'Cambio de plan', 'NINGUNO', 'TELCEL LIBRE 1', 'NO', 'NO', 'ANDROIDVM', 'NO', 70016568, 'SKU', '24', 'Solicitud del Cliente', 'Impresión local']</msg>
+<msg time="2026-09-25T11:51:48.289908" level="INFO">${user_name} = 99909</msg>
+<msg time="2026-09-25T11:51:48.289908" level="INFO">${password} = Abc1234%</msg>
+<msg time="2026-09-25T11:51:48.289908" level="INFO">${menu_section} = Operaciones Integradas</msg>
+<msg time="2026-09-25T11:51:48.289908" level="INFO">${menu_option} = Cambio de Oferta Primaria</msg>
+<msg time="2026-09-25T11:51:48.292421" level="INFO">${search_by} = CURP</msg>
+<msg time="2026-09-25T11:51:48.292421" level="INFO">${search_value} = WOHM790806MCLXYZ12</msg>
+<msg time="2026-09-25T11:51:48.294656" level="INFO">${type_offer} = Cambio de plan</msg>
+<msg time="2026-09-25T11:51:48.294656" level="INFO">${type_project} = NINGUNO</msg>
+<msg time="2026-09-25T11:51:48.296902" level="INFO">${primary_offer} = TELCEL LIBRE 1</msg>
+<msg time="2026-09-25T11:51:48.296902" level="INFO">${add_supp_offer} = NO</msg>
+<msg time="2026-09-25T11:51:48.298908" level="INFO">${remove_supp_offer} = NO</msg>
+<msg time="2026-09-25T11:51:48.298908" level="INFO">${supplementary_offer} = ANDROIDVM</msg>
+<msg time="2026-09-25T11:51:48.298908" level="INFO">${device} = NO</msg>
+<msg time="2026-09-25T11:51:48.300421" level="INFO">${new_device} = 70016568</msg>
+<msg time="2026-09-25T11:51:48.300421" level="INFO">${search_device_by} = SKU</msg>
+<msg time="2026-09-25T11:51:48.300421" level="INFO">${period_device} = 24</msg>
+<msg time="2026-09-25T11:51:48.302429" level="INFO">${print_reason} = Solicitud del Cliente</msg>
+<msg time="2026-09-25T11:51:48.304459" level="INFO">${type_print} = Impresión local</msg>
+<msg time="2026-09-25T11:51:48.304459" level="INFO">['user_name', 'password', 'menu_section', 'menu_option', 'search_by', 'search_value', 'type_offer', 'type_project', 'primary_offer', 'add_supp_offer', 'remove_supp_offer', 'supplementary_offer', 'device', 'new_device', 'search_device_by', 'period_device', 'print_reason', 'type_print'] ['99909', 'Abc1234%', 'Operaciones Integradas', 'Cambio de Oferta Primaria', 'CURP', 'WOHM790806MCLXYZ12', 'Cambio de plan', 'NINGUNO', 'TELCEL LIBRE 1', 'NO', 'NO', 'ANDROIDVM', 'NO', 70016568, 'SKU', '24', 'Solicitud del Cliente', 'Impresión local']</msg>
 <arg>${EXECDIR}\\Data\\Change_Primary_Offer\\TD_CPO_01</arg>
 <doc>This keyword Takes one argument(Source Document) And loads data to robotframework.</doc>
-<status status="PASS" start="2026-09-23T14:31:52.810721" elapsed="0.594128"/>
+<status status="PASS" start="2026-09-25T11:51:47.880546" elapsed="0.426198"/>
 </kw>
 <kw name="Given Login y Busqueda De Suscriptor" owner="Common">
 <kw name="BES Init" owner="Login">
 <kw name="Set Global Variable" owner="BuiltIn">
-<msg time="2026-09-23T14:31:53.416432" level="INFO">${STEP} = Initialize Telcel BES CRM</msg>
+<msg time="2026-09-25T11:51:48.312312" level="INFO">${STEP} = Initialize Telcel BES CRM</msg>
 <arg>${STEP}</arg>
 <arg>Initialize Telcel BES CRM</arg>
-<doc>Makes a variable available globally in all tests and suites.</doc>
-<status status="PASS" start="2026-09-23T14:31:53.413957" elapsed="0.002982"/>
+<doc>Makes the variable available globally in all tests and suites.</doc>
+<status status="PASS" start="2026-09-25T11:51:48.312312" elapsed="0.000000"/>
 </kw>
 <kw name="Set Test Variable" owner="BuiltIn">
-<msg time="2026-09-23T14:31:53.416939" level="INFO">${step_number} = 0</msg>
+<msg time="2026-09-25T11:51:48.317145" level="INFO">${step_number} = 0</msg>
 <arg>${step_number}</arg>
 <arg>0</arg>
-<doc>Makes a variable available everywhere within the scope of the current test.</doc>
-<status status="PASS" start="2026-09-23T14:31:53.416939" elapsed="0.000000"/>
+<doc>Makes the variable available everywhere within the scope of the current test.</doc>
+<status status="PASS" start="2026-09-25T11:51:48.312312" elapsed="0.004833"/>
 </kw>
 <kw name="Create Directory" owner="OperatingSystem">
-<msg time="2026-09-23T14:31:53.418948" level="INFO" html="true">Directory '&lt;a href="file://c:\ProyectosTelcel\bes_telcel\results\Cambio Oferta Primaria Sin Equipo"&gt;c:\ProyectosTelcel\bes_telcel\results\Cambio Oferta Primaria Sin Equipo&lt;/a&gt;' already exists.</msg>
+<msg time="2026-09-25T11:51:48.317145" level="INFO" html="true">Directory '&lt;a href="file://C:\Telcel\Automatización\bes_telcel\results\Cambio Oferta Primaria Sin Equipo"&gt;C:\Telcel\Automatización\bes_telcel\results\Cambio Oferta Primaria Sin Equipo&lt;/a&gt;' already exists.</msg>
 <arg>${OUTPUT_DIR}/${TEST_NAME}</arg>
 <doc>Creates the specified directory.</doc>
-<status status="PASS" start="2026-09-23T14:31:53.416939" elapsed="0.002009"/>
+<status status="PASS" start="2026-09-25T11:51:48.317145" elapsed="0.000000"/>
 </kw>
 <kw name="Empty Directory" owner="OperatingSystem">
-<msg time="2026-09-23T14:31:53.418948" level="INFO" html="true">Listing contents of directory '&lt;a href="file://c:\ProyectosTelcel\bes_telcel\results\Cambio Oferta Primaria Sin Equipo"&gt;c:\ProyectosTelcel\bes_telcel\results\Cambio Oferta Primaria Sin Equipo&lt;/a&gt;'.</msg>
-<msg time="2026-09-23T14:31:53.425043" level="INFO" html="true">Emptied directory '&lt;a href="file://c:\ProyectosTelcel\bes_telcel\results\Cambio Oferta Primaria Sin Equipo"&gt;c:\ProyectosTelcel\bes_telcel\results\Cambio Oferta Primaria Sin Equipo&lt;/a&gt;'.</msg>
+<msg time="2026-09-25T11:51:48.317145" level="INFO" html="true">Listing contents of directory '&lt;a href="file://C:\Telcel\Automatización\bes_telcel\results\Cambio Oferta Primaria Sin Equipo"&gt;C:\Telcel\Automatización\bes_telcel\results\Cambio Oferta Primaria Sin Equipo&lt;/a&gt;'.</msg>
+<msg time="2026-09-25T11:51:48.327079" level="INFO" html="true">Emptied directory '&lt;a href="file://C:\Telcel\Automatización\bes_telcel\results\Cambio Oferta Primaria Sin Equipo"&gt;C:\Telcel\Automatización\bes_telcel\results\Cambio Oferta Primaria Sin Equipo&lt;/a&gt;'.</msg>
 <arg>${OUTPUT_DIR}/${TEST_NAME}</arg>
 <doc>Deletes all the content from the given directory.</doc>
-<status status="PASS" start="2026-09-23T14:31:53.418948" elapsed="0.007119"/>
+<status status="PASS" start="2026-09-25T11:51:48.317145" elapsed="0.009934"/>
 </kw>
 <kw name="Create Directory" owner="OperatingSystem">
-<msg time="2026-09-23T14:31:53.427718" level="INFO" html="true">Directory '&lt;a href="file://c:\ProyectosTelcel\bes_telcel\results\Cambio Oferta Primaria Sin Equipo"&gt;c:\ProyectosTelcel\bes_telcel\results\Cambio Oferta Primaria Sin Equipo&lt;/a&gt;' already exists.</msg>
+<msg time="2026-09-25T11:51:48.327079" level="INFO" html="true">Directory '&lt;a href="file://C:\Telcel\Automatización\bes_telcel\results\Cambio Oferta Primaria Sin Equipo"&gt;C:\Telcel\Automatización\bes_telcel\results\Cambio Oferta Primaria Sin Equipo&lt;/a&gt;' already exists.</msg>
 <arg>${OUTPUT_DIR}/${TEST_NAME}</arg>
 <doc>Creates the specified directory.</doc>
-<status status="PASS" start="2026-09-23T14:31:53.427067" elapsed="0.000651"/>
+<status status="PASS" start="2026-09-25T11:51:48.327079" elapsed="0.000000"/>
 </kw>
 <kw name="Set Screenshot Directory" owner="SeleniumLibrary">
 <arg>${OUTPUT_DIR}/${TEST_NAME}</arg>
 <doc>Sets the directory for captured screenshots.</doc>
-<status status="PASS" start="2026-09-23T14:31:53.427718" elapsed="0.002148"/>
+<status status="PASS" start="2026-09-25T11:51:48.327079" elapsed="0.000000"/>
 </kw>
 <kw name="Get Time" owner="BuiltIn">
-<msg time="2026-09-23T14:31:53.429866" level="INFO">${yyyy} = 2026</msg>
-<msg time="2026-09-23T14:31:53.429866" level="INFO">${mon} = 09</msg>
-<msg time="2026-09-23T14:31:53.429866" level="INFO">${dd} = 23</msg>
-<msg time="2026-09-23T14:31:53.429866" level="INFO">${hh} = 14</msg>
-<msg time="2026-09-23T14:31:53.429866" level="INFO">${mm} = 31</msg>
+<msg time="2026-09-25T11:51:48.332977" level="INFO">${yyyy} = 2026</msg>
+<msg time="2026-09-25T11:51:48.332977" level="INFO">${mon} = 09</msg>
+<msg time="2026-09-25T11:51:48.332977" level="INFO">${dd} = 25</msg>
+<msg time="2026-09-25T11:51:48.332977" level="INFO">${hh} = 11</msg>
+<msg time="2026-09-25T11:51:48.332977" level="INFO">${mm} = 51</msg>
 <var>${yyyy}</var>
 <var>${mon}</var>
 <var>${dd}</var>
@@ -81,234 +81,234 @@
 <var>${mm}</var>
 <arg>year,month,day,hour,minute</arg>
 <doc>Returns the given time in the requested format.</doc>
-<status status="PASS" start="2026-09-23T14:31:53.429866" elapsed="0.000000"/>
+<status status="PASS" start="2026-09-25T11:51:48.327079" elapsed="0.005898"/>
 </kw>
 <kw name="Set Global Variable" owner="BuiltIn">
-<msg time="2026-09-23T14:31:53.429866" level="INFO">${TS_Number} = 202609231431</msg>
+<msg time="2026-09-25T11:51:48.332977" level="INFO">${TS_Number} = 202609251151</msg>
 <arg>${TS_Number}</arg>
 <arg>${yyyy}${mon}${dd}${hh}${mm}</arg>
-<doc>Makes a variable available globally in all tests and suites.</doc>
-<status status="PASS" start="2026-09-23T14:31:53.429866" elapsed="0.000000"/>
+<doc>Makes the variable available globally in all tests and suites.</doc>
+<status status="PASS" start="2026-09-25T11:51:48.332977" elapsed="0.000000"/>
 </kw>
 <kw name="Login BES" owner="Login">
 <kw name="Open Page With Retry" owner="Login">
 <kw name="Create Chrome options" owner="Login">
 <kw name="Evaluate" owner="BuiltIn">
-<msg time="2026-09-23T14:31:53.438591" level="INFO">${options} = &lt;selenium.webdriver.chrome.options.Options object at 0x0000022DE9D9D310&gt;</msg>
+<msg time="2026-09-25T11:51:48.344501" level="INFO">${options} = &lt;selenium.webdriver.chrome.options.Options object at 0x00000265B8A7A2D0&gt;</msg>
 <var>${options}</var>
 <arg>sys.modules['selenium.webdriver'].ChromeOptions()</arg>
 <arg>sys, selenium.webdriver</arg>
 <doc>Evaluates the given expression in Python and returns the result.</doc>
-<status status="PASS" start="2026-09-23T14:31:53.438591" elapsed="0.000000"/>
+<status status="PASS" start="2026-09-25T11:51:48.342481" elapsed="0.002020"/>
 </kw>
 <kw name="Set Variable" owner="BuiltIn">
-<msg time="2026-09-23T14:31:53.440872" level="INFO">${headless} = --headless=new</msg>
+<msg time="2026-09-25T11:51:48.346512" level="INFO">${headless} = --headless=new</msg>
 <var>${headless}</var>
 <arg>--headless=new</arg>
-<doc>Returns the given values which can then be assigned to a variables.</doc>
-<status status="PASS" start="2026-09-23T14:31:53.438591" elapsed="0.002281"/>
+<doc>Returns the given values which can then be assigned to a variable.</doc>
+<status status="PASS" start="2026-09-25T11:51:48.344501" elapsed="0.002011"/>
 </kw>
 <kw name="Set Variable" owner="BuiltIn">
-<msg time="2026-09-23T14:31:53.440872" level="INFO">${windows_size} = --window-size=1920,1080</msg>
+<msg time="2026-09-25T11:51:48.346512" level="INFO">${windows_size} = --window-size=1920,1080</msg>
 <var>${windows_size}</var>
 <arg>--window-size=1920,1080</arg>
-<doc>Returns the given values which can then be assigned to a variables.</doc>
-<status status="PASS" start="2026-09-23T14:31:53.440872" elapsed="0.002238"/>
+<doc>Returns the given values which can then be assigned to a variable.</doc>
+<status status="PASS" start="2026-09-25T11:51:48.346512" elapsed="0.009140"/>
 </kw>
 <kw name="Set Variable" owner="BuiltIn">
-<msg time="2026-09-23T14:31:53.443110" level="INFO">${scale} = --force-device-scale-factor=0.75</msg>
+<msg time="2026-09-25T11:51:48.356533" level="INFO">${scale} = --force-device-scale-factor=0.75</msg>
 <var>${scale}</var>
 <arg>--force-device-scale-factor=0.75</arg>
-<doc>Returns the given values which can then be assigned to a variables.</doc>
-<status status="PASS" start="2026-09-23T14:31:53.443110" elapsed="0.000000"/>
+<doc>Returns the given values which can then be assigned to a variable.</doc>
+<status status="PASS" start="2026-09-25T11:51:48.356533" elapsed="0.000000"/>
 </kw>
 <kw name="Call Method" owner="BuiltIn">
 <arg>${options}</arg>
 <arg>add_argument</arg>
 <arg>--ignore-certificate-errors</arg>
 <doc>Calls the named method of the given object with the provided arguments.</doc>
-<status status="PASS" start="2026-09-23T14:31:53.443110" elapsed="0.000000"/>
+<status status="PASS" start="2026-09-25T11:51:48.356533" elapsed="0.000000"/>
 </kw>
 <kw name="Call Method" owner="BuiltIn">
 <arg>${options}</arg>
 <arg>add_argument</arg>
 <arg>--incognito</arg>
 <doc>Calls the named method of the given object with the provided arguments.</doc>
-<status status="PASS" start="2026-09-23T14:31:53.443110" elapsed="0.003076"/>
+<status status="PASS" start="2026-09-25T11:51:48.360700" elapsed="0.000000"/>
 </kw>
 <kw name="Call Method" owner="BuiltIn">
 <arg>${options}</arg>
 <arg>add_argument</arg>
 <arg>--disable-gpu</arg>
 <doc>Calls the named method of the given object with the provided arguments.</doc>
-<status status="PASS" start="2026-09-23T14:31:53.446186" elapsed="0.000000"/>
+<status status="PASS" start="2026-09-25T11:51:48.360700" elapsed="0.001515"/>
 </kw>
 <kw name="Call Method" owner="BuiltIn">
 <arg>${options}</arg>
 <arg>add_argument</arg>
 <arg>${windows_size}</arg>
 <doc>Calls the named method of the given object with the provided arguments.</doc>
-<status status="PASS" start="2026-09-23T14:31:53.446186" elapsed="0.000000"/>
+<status status="PASS" start="2026-09-25T11:51:48.362215" elapsed="0.003712"/>
 </kw>
 <kw name="Call Method" owner="BuiltIn">
 <arg>${options}</arg>
 <arg>add_argument</arg>
 <arg>${scale}</arg>
 <doc>Calls the named method of the given object with the provided arguments.</doc>
-<status status="PASS" start="2026-09-23T14:31:53.446186" elapsed="0.000000"/>
+<status status="PASS" start="2026-09-25T11:51:48.365927" elapsed="0.002004"/>
 </kw>
 <kw name="Call Method" owner="BuiltIn">
 <arg>${options}</arg>
 <arg>add_argument</arg>
 <arg>--no-sandbox</arg>
 <doc>Calls the named method of the given object with the provided arguments.</doc>
-<status status="PASS" start="2026-09-23T14:31:53.446186" elapsed="0.002846"/>
+<status status="PASS" start="2026-09-25T11:51:48.372459" elapsed="0.003946"/>
 </kw>
 <kw name="Call Method" owner="BuiltIn">
 <arg>${options}</arg>
 <arg>add_argument</arg>
 <arg>--disable-dev-shm-usage</arg>
 <doc>Calls the named method of the given object with the provided arguments.</doc>
-<status status="PASS" start="2026-09-23T14:31:53.449032" elapsed="0.000000"/>
+<status status="PASS" start="2026-09-25T11:51:48.377107" elapsed="0.002007"/>
 </kw>
 <return>
 <value>${options}</value>
-<status status="PASS" start="2026-09-23T14:31:53.449032" elapsed="0.000000"/>
+<status status="PASS" start="2026-09-25T11:51:48.379114" elapsed="0.000000"/>
 </return>
-<msg time="2026-09-23T14:31:53.449032" level="INFO">${capabilities} = &lt;selenium.webdriver.chrome.options.Options object at 0x0000022DE9D9D310&gt;</msg>
+<msg time="2026-09-25T11:51:48.380623" level="INFO">${capabilities} = &lt;selenium.webdriver.chrome.options.Options object at 0x00000265B8A7A2D0&gt;</msg>
 <var>${capabilities}</var>
-<status status="PASS" start="2026-09-23T14:31:53.436582" elapsed="0.012450"/>
+<status status="PASS" start="2026-09-25T11:51:48.342481" elapsed="0.038142"/>
 </kw>
 <for flavor="IN RANGE">
 <iter>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Inicio de pagina BES CRM Intento: ${i+1}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2026-09-23T14:31:53.449032" elapsed="0.000000"/>
+<status status="PASS" start="2026-09-25T11:51:48.382149" elapsed="0.001384"/>
 </kw>
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2026-09-23T14:31:53.449032" level="INFO">Opening browser 'Chrome' to base url 'https://10.59.10.198:12900/oc/bes/sm/login/login.html?logoutReason=SessionInvalid'.</msg>
+<msg time="2026-09-25T11:51:48.385541" level="INFO">Opening browser 'Chrome' to base url 'https://10.59.10.213/oc/bes/sm/portal/home.html'.</msg>
 <arg>${url}</arg>
 <arg>${browser_opt}</arg>
 <arg>options=${capabilities}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2026-09-23T14:31:53.449032" elapsed="11.839977"/>
+<status status="PASS" start="2026-09-25T11:51:48.383533" elapsed="10.731501"/>
 </kw>
 <kw name="Maximize Browser Window" owner="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" start="2026-09-23T14:32:05.289009" elapsed="0.007217"/>
+<status status="PASS" start="2026-09-25T11:51:59.115034" elapsed="0.201978"/>
 </kw>
 <kw name="Run Keyword And Return Status" owner="BuiltIn">
 <kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
 <arg>${locator}</arg>
 <arg>timeout=30s</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" start="2026-09-23T14:32:05.297300" elapsed="0.024601"/>
+<status status="PASS" start="2026-09-25T11:51:59.322686" elapsed="0.093778"/>
 </kw>
-<msg time="2026-09-23T14:32:05.323066" level="INFO">${status} = True</msg>
+<msg time="2026-09-25T11:51:59.416464" level="INFO">${status} = True</msg>
 <var>${status}</var>
 <arg>Wait Until Element Is Visible</arg>
 <arg>${locator}</arg>
 <arg>timeout=30s</arg>
-<doc>Runs the given keyword with given arguments and returns the status as a Boolean value.</doc>
-<status status="PASS" start="2026-09-23T14:32:05.296226" elapsed="0.026840"/>
+<doc>Runs the specified keyword and returns the status as a Boolean value.</doc>
+<status status="PASS" start="2026-09-25T11:51:59.318546" elapsed="0.097918"/>
 </kw>
 <if>
 <branch type="IF" condition="${status}">
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Inicio correcto de CRM BES</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2026-09-23T14:32:05.325183" elapsed="0.001012"/>
+<status status="PASS" start="2026-09-25T11:51:59.418471" elapsed="0.002013"/>
 </kw>
 <return>
-<status status="PASS" start="2026-09-23T14:32:05.326195" elapsed="0.000000"/>
+<status status="PASS" start="2026-09-25T11:51:59.422506" elapsed="0.002038"/>
 </return>
-<status status="PASS" start="2026-09-23T14:32:05.324292" elapsed="0.001903"/>
+<status status="PASS" start="2026-09-25T11:51:59.418471" elapsed="0.006073"/>
 </branch>
-<status status="PASS" start="2026-09-23T14:32:05.323066" elapsed="0.003129"/>
+<status status="PASS" start="2026-09-25T11:51:59.418471" elapsed="0.006073"/>
 </if>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Re-Try Open a New Window...</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="NOT RUN" start="2026-09-23T14:32:05.326195" elapsed="0.001136"/>
+<status status="NOT RUN" start="2026-09-25T11:51:59.424544" elapsed="0.002574"/>
 </kw>
 <var name="${i}">0</var>
-<status status="PASS" start="2026-09-23T14:31:53.449032" elapsed="11.878299"/>
+<status status="PASS" start="2026-09-25T11:51:48.382149" elapsed="11.054498"/>
 </iter>
 <var>${i}</var>
 <value>${retries}</value>
-<status status="PASS" start="2026-09-23T14:31:53.449032" elapsed="11.878299"/>
+<status status="PASS" start="2026-09-25T11:51:48.380623" elapsed="11.056024"/>
 </for>
 <kw name="Fail" owner="BuiltIn">
 <arg>No cargó la página</arg>
-<doc>Fails the test with the given message and optionally alters its tags.</doc>
-<status status="NOT RUN" start="2026-09-23T14:32:05.327331" elapsed="0.001007"/>
+<doc>Fails the test or task with the given message and optionally alters its tags.</doc>
+<status status="NOT RUN" start="2026-09-25T11:51:59.445628" elapsed="0.000000"/>
 </kw>
 <arg>${SYSTEM}[URL]</arg>
 <arg>${SYSTEM}[BROWSER]</arg>
 <arg>${LOGIN}[BTN_SIGNIN]</arg>
 <doc>Abre el navegador con capabilities y retrys</doc>
-<status status="PASS" start="2026-09-23T14:31:53.435342" elapsed="11.892996"/>
+<status status="PASS" start="2026-09-25T11:51:48.339360" elapsed="11.108284"/>
 </kw>
 <kw name="Step" owner="Utils">
 <kw name="Evaluate" owner="BuiltIn">
-<msg time="2026-09-23T14:32:05.330699" level="INFO">${STEP_NUMBER} = 1</msg>
+<msg time="2026-09-25T11:51:59.495470" level="INFO">${STEP_NUMBER} = 1</msg>
 <var>${STEP_NUMBER}</var>
 <arg>${STEP_NUMBER} + 1</arg>
 <doc>Evaluates the given expression in Python and returns the result.</doc>
-<status status="PASS" start="2026-09-23T14:32:05.329690" elapsed="0.001009"/>
+<status status="PASS" start="2026-09-25T11:51:59.468602" elapsed="0.026868"/>
 </kw>
 <kw name="Set Suite Variable" owner="BuiltIn">
-<msg time="2026-09-23T14:32:05.331694" level="INFO">${STEP_NUMBER} = 1</msg>
+<msg time="2026-09-25T11:51:59.498549" level="INFO">${STEP_NUMBER} = 1</msg>
 <arg>${STEP_NUMBER}</arg>
-<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
-<status status="PASS" start="2026-09-23T14:32:05.330699" elapsed="0.002006"/>
+<doc>Makes the variable available everywhere within the scope of the current suite.</doc>
+<status status="PASS" start="2026-09-25T11:51:59.495470" elapsed="0.003079"/>
 </kw>
 <kw name="Get Time" owner="BuiltIn">
-<msg time="2026-09-23T14:32:05.334705" level="INFO">${timestamp} = 2026-09-23 14:32:05</msg>
+<msg time="2026-09-25T11:51:59.498549" level="INFO">${timestamp} = 2026-09-25 11:51:59</msg>
 <var>${timestamp}</var>
 <arg>result_format=%Y%m%d_%H%M%S</arg>
 <doc>Returns the given time in the requested format.</doc>
-<status status="PASS" start="2026-09-23T14:32:05.332705" elapsed="0.002000"/>
+<status status="PASS" start="2026-09-25T11:51:59.498549" elapsed="0.000000"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>▶ Step ${STEP_NUMBER}: ${description}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2026-09-23T14:32:05.335711" elapsed="0.000994"/>
+<status status="PASS" start="2026-09-25T11:51:59.498549" elapsed="0.000000"/>
 </kw>
 <kw name="Replace String Using Regexp" owner="String">
-<msg time="2026-09-23T14:32:05.339215" level="INFO">${file_name} = 1_2026-09-23_14_32_05_Abre_navegador_en_CRM_BES.png</msg>
+<msg time="2026-09-25T11:51:59.502850" level="INFO">${file_name} = 1_2026-09-25_11_51_59_Abre_navegador_en_CRM_BES.png</msg>
 <var>${file_name}</var>
 <arg>${STEP_NUMBER}_${timestamp}_${description}.png</arg>
 <arg>[^a-zA-Z0-9_.-]</arg>
 <arg>_</arg>
-<doc>Replaces ``pattern`` in the given ``string`` with ``replace_with``.</doc>
-<status status="PASS" start="2026-09-23T14:32:05.337704" elapsed="0.001511"/>
+<doc>Replaces `pattern` in the given `string` with `replace_with`.</doc>
+<status status="PASS" start="2026-09-25T11:51:59.502850" elapsed="0.002145"/>
 </kw>
 <kw name="Capture Page Screenshot" owner="SeleniumLibrary">
-<msg time="2026-09-23T14:32:05.481737" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Cambio%20Oferta%20Primaria%20Sin%20Equipo/1_2026-09-23_14_32_05_Abre_navegador_en_CRM_BES.png"&gt;&lt;img src="Cambio%20Oferta%20Primaria%20Sin%20Equipo/1_2026-09-23_14_32_05_Abre_navegador_en_CRM_BES.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-09-25T11:51:59.644402" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Cambio%20Oferta%20Primaria%20Sin%20Equipo/1_2026-09-25_11_51_59_Abre_navegador_en_CRM_BES.png"&gt;&lt;img src="Cambio%20Oferta%20Primaria%20Sin%20Equipo/1_2026-09-25_11_51_59_Abre_navegador_en_CRM_BES.png" width="800px"&gt;&lt;/a&gt;</msg>
 <arg>${file_name}</arg>
 <doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
-<status status="PASS" start="2026-09-23T14:32:05.339215" elapsed="0.143525"/>
+<status status="PASS" start="2026-09-25T11:51:59.504995" elapsed="0.141413"/>
 </kw>
 <arg>Abre navegador en CRM BES</arg>
 <doc>Keyword que saca el numero de paso y captura evidencia
 reemplazando el capture page screenshoot</doc>
-<status status="PASS" start="2026-09-23T14:32:05.328338" elapsed="0.155399"/>
+<status status="PASS" start="2026-09-25T11:51:59.447644" elapsed="0.198764"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2026-09-23T14:32:05.484740" level="INFO">Typing text '99909' into text field '//input[@id="ipt_name"]'.</msg>
+<msg time="2026-09-25T11:51:59.648415" level="INFO">Typing text '99909' into text field '//input[@id="ipt_name"]'.</msg>
 <arg>${LOGIN}[USERNAME]</arg>
 <arg>${user_name}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2026-09-23T14:32:05.483737" elapsed="0.083273"/>
+<status status="PASS" start="2026-09-25T11:51:59.646408" elapsed="0.091601"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2026-09-23T14:32:05.568430" level="INFO">Typing text 'Abc1234%' into text field '//input[@type="password"]'.</msg>
+<msg time="2026-09-25T11:51:59.738009" level="INFO">Typing text 'Abc1234%' into text field '//input[@type="password"]'.</msg>
 <arg>${LOGIN}[PASSWORD]</arg>
 <arg>${password}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2026-09-23T14:32:05.567010" elapsed="0.099252"/>
+<status status="PASS" start="2026-09-25T11:51:59.738009" elapsed="0.127088"/>
 </kw>
 <kw name="verify_element_is_present" owner="Utils">
 <kw name="Run Keyword And Ignore Error" owner="BuiltIn">
@@ -316,32 +316,32 @@ reemplazando el capture page screenshoot</doc>
 <arg>${locator}</arg>
 <arg>15s</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" start="2026-09-23T14:32:05.669934" elapsed="0.017640"/>
+<status status="PASS" start="2026-09-25T11:51:59.868097" elapsed="0.016256"/>
 </kw>
-<msg time="2026-09-23T14:32:05.688572" level="INFO">${status1} = PASS</msg>
-<msg time="2026-09-23T14:32:05.688572" level="INFO">${value1} = None</msg>
+<msg time="2026-09-25T11:51:59.884353" level="INFO">${status1} = PASS</msg>
+<msg time="2026-09-25T11:51:59.892339" level="INFO">${value1} = None</msg>
 <var>${status1}</var>
 <var>${value1}</var>
 <arg>Wait Until Element Is Visible</arg>
 <arg>${locator}</arg>
 <arg>15s</arg>
-<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
-<status status="PASS" start="2026-09-23T14:32:05.669424" elapsed="0.019148"/>
+<doc>Runs the given keyword with the given arguments and ignores possible errorw.</doc>
+<status status="PASS" start="2026-09-25T11:51:59.865097" elapsed="0.027242"/>
 </kw>
 <kw name="Run Keyword And Ignore Error" owner="BuiltIn">
 <kw name="Scroll Element Into View" owner="SeleniumLibrary">
 <arg>${locator}</arg>
 <doc>Scrolls the element identified by ``locator`` into view.</doc>
-<status status="PASS" start="2026-09-23T14:32:05.690994" elapsed="0.299844"/>
+<status status="PASS" start="2026-09-25T11:51:59.894960" elapsed="0.281323"/>
 </kw>
-<msg time="2026-09-23T14:32:05.990838" level="INFO">${status2} = PASS</msg>
-<msg time="2026-09-23T14:32:05.992941" level="INFO">${value2} = None</msg>
+<msg time="2026-09-25T11:52:00.176283" level="INFO">${status2} = PASS</msg>
+<msg time="2026-09-25T11:52:00.176283" level="INFO">${value2} = None</msg>
 <var>${status2}</var>
 <var>${value2}</var>
 <arg>Scroll Element Into View</arg>
 <arg>${locator}</arg>
-<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
-<status status="PASS" start="2026-09-23T14:32:05.689581" elapsed="0.303360"/>
+<doc>Runs the given keyword with the given arguments and ignores possible errorw.</doc>
+<status status="PASS" start="2026-09-25T11:51:59.892339" elapsed="0.283944"/>
 </kw>
 <kw name="Run Keyword If" owner="BuiltIn">
 <arg>'${status1}' == 'FAIL' and '${status2}' == 'FAIL'</arg>
@@ -351,202 +351,131 @@ reemplazando el capture page screenshoot</doc>
 <arg>AND</arg>
 <arg>Fail</arg>
 <arg>Element not found: ${locator}</arg>
-<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
-<status status="PASS" start="2026-09-23T14:32:05.992941" elapsed="0.000000"/>
+<doc>Runs the given keyword with the given arguments, if `condition` is true.</doc>
+<status status="PASS" start="2026-09-25T11:52:00.176283" elapsed="0.020001"/>
 </kw>
 <kw name="Get WebElement" owner="SeleniumLibrary">
-<msg time="2026-09-23T14:32:06.003218" level="INFO">${WebElement} = &lt;selenium.webdriver.remote.webelement.WebElement (session="27d67265b3a00285a1f4a2c5f4021b71", element="f.3777E1B25043AFD6749B17F408CC4926.d.2F26E2DFC6EA7829E1F7DA7FF0D2EAE3.e.330")&gt;</msg>
+<msg time="2026-09-25T11:52:00.212678" level="INFO">${WebElement} = &lt;selenium.webdriver.remote.webelement.WebElement (session="db842fe832e54a6b7b13e9360bab1b7c", element="f.8CF758237763768FF4971F615291CBD8.d.B3FD2920F3A42A5E89C709C5444E8D84.e.30")&gt;</msg>
 <var>${WebElement}</var>
 <arg>${locator}</arg>
 <doc>Returns the first WebElement matching the given ``locator``.</doc>
-<status status="PASS" start="2026-09-23T14:32:05.992941" elapsed="0.010277"/>
+<status status="PASS" start="2026-09-25T11:52:00.196284" elapsed="0.016394"/>
 </kw>
 <kw name="Highlight" owner="Yggdrasil">
 <arg>${WebElement}</arg>
 <doc>Highlights (blinks) a Selenium Webdriver element</doc>
-<status status="PASS" start="2026-09-23T14:32:06.006260" elapsed="0.223924"/>
+<status status="PASS" start="2026-09-25T11:52:00.218039" elapsed="0.246947"/>
 </kw>
 <return>
 <value>${status1}</value>
-<status status="PASS" start="2026-09-23T14:32:06.230184" elapsed="0.000999"/>
+<status status="PASS" start="2026-09-25T11:52:00.464986" elapsed="0.001554"/>
 </return>
 <arg>${LOGIN}[BTN_SIGNIN]</arg>
-<status status="PASS" start="2026-09-23T14:32:05.667419" elapsed="0.563764"/>
+<status status="PASS" start="2026-09-25T11:51:59.865097" elapsed="0.601443"/>
 </kw>
 <kw name="Step" owner="Utils">
 <kw name="Evaluate" owner="BuiltIn">
-<msg time="2026-09-23T14:32:06.233526" level="INFO">${STEP_NUMBER} = 2</msg>
+<msg time="2026-09-25T11:52:00.484242" level="INFO">${STEP_NUMBER} = 2</msg>
 <var>${STEP_NUMBER}</var>
 <arg>${STEP_NUMBER} + 1</arg>
 <doc>Evaluates the given expression in Python and returns the result.</doc>
-<status status="PASS" start="2026-09-23T14:32:06.232196" elapsed="0.001330"/>
+<status status="PASS" start="2026-09-25T11:52:00.480539" elapsed="0.009498"/>
 </kw>
 <kw name="Set Suite Variable" owner="BuiltIn">
-<msg time="2026-09-23T14:32:06.235035" level="INFO">${STEP_NUMBER} = 2</msg>
+<msg time="2026-09-25T11:52:00.492550" level="INFO">${STEP_NUMBER} = 2</msg>
 <arg>${STEP_NUMBER}</arg>
-<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
-<status status="PASS" start="2026-09-23T14:32:06.233526" elapsed="0.002516"/>
+<doc>Makes the variable available everywhere within the scope of the current suite.</doc>
+<status status="PASS" start="2026-09-25T11:52:00.490037" elapsed="0.004544"/>
 </kw>
 <kw name="Get Time" owner="BuiltIn">
-<msg time="2026-09-23T14:32:06.237045" level="INFO">${timestamp} = 2026-09-23 14:32:06</msg>
+<msg time="2026-09-25T11:52:00.497534" level="INFO">${timestamp} = 2026-09-25 11:52:00</msg>
 <var>${timestamp}</var>
 <arg>result_format=%Y%m%d_%H%M%S</arg>
 <doc>Returns the given time in the requested format.</doc>
-<status status="PASS" start="2026-09-23T14:32:06.236042" elapsed="0.001003"/>
+<status status="PASS" start="2026-09-25T11:52:00.495525" elapsed="0.002009"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>▶ Step ${STEP_NUMBER}: ${description}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2026-09-23T14:32:06.237045" elapsed="0.000998"/>
+<status status="PASS" start="2026-09-25T11:52:00.500405" elapsed="0.000000"/>
 </kw>
 <kw name="Replace String Using Regexp" owner="String">
-<msg time="2026-09-23T14:32:06.239040" level="INFO">${file_name} = 2_2026-09-23_14_32_06_Login_BES.png</msg>
+<msg time="2026-09-25T11:52:00.502412" level="INFO">${file_name} = 2_2026-09-25_11_52_00_Login_BES.png</msg>
 <var>${file_name}</var>
 <arg>${STEP_NUMBER}_${timestamp}_${description}.png</arg>
 <arg>[^a-zA-Z0-9_.-]</arg>
 <arg>_</arg>
-<doc>Replaces ``pattern`` in the given ``string`` with ``replace_with``.</doc>
-<status status="PASS" start="2026-09-23T14:32:06.238043" elapsed="0.000997"/>
+<doc>Replaces `pattern` in the given `string` with `replace_with`.</doc>
+<status status="PASS" start="2026-09-25T11:52:00.502412" elapsed="0.001530"/>
 </kw>
 <kw name="Capture Page Screenshot" owner="SeleniumLibrary">
-<msg time="2026-09-23T14:32:06.365275" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Cambio%20Oferta%20Primaria%20Sin%20Equipo/2_2026-09-23_14_32_06_Login_BES.png"&gt;&lt;img src="Cambio%20Oferta%20Primaria%20Sin%20Equipo/2_2026-09-23_14_32_06_Login_BES.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-09-25T11:52:00.660848" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Cambio%20Oferta%20Primaria%20Sin%20Equipo/2_2026-09-25_11_52_00_Login_BES.png"&gt;&lt;img src="Cambio%20Oferta%20Primaria%20Sin%20Equipo/2_2026-09-25_11_52_00_Login_BES.png" width="800px"&gt;&lt;/a&gt;</msg>
 <arg>${file_name}</arg>
 <doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
-<status status="PASS" start="2026-09-23T14:32:06.240056" elapsed="0.126217"/>
+<status status="PASS" start="2026-09-25T11:52:00.505953" elapsed="0.156436"/>
 </kw>
 <arg>Login BES</arg>
 <doc>Keyword que saca el numero de paso y captura evidencia
 reemplazando el capture page screenshoot</doc>
-<status status="PASS" start="2026-09-23T14:32:06.231183" elapsed="0.135090"/>
+<status status="PASS" start="2026-09-25T11:52:00.468094" elapsed="0.194295"/>
 </kw>
-<kw name="click_con_JS" owner="Utils">
-<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
-<arg>${locator}</arg>
-<arg>timeout=15s</arg>
-<doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" start="2026-09-23T14:32:06.369275" elapsed="0.025535"/>
-</kw>
-<kw name="Get WebElement" owner="SeleniumLibrary">
-<msg time="2026-09-23T14:32:06.407494" level="INFO">${element} = &lt;selenium.webdriver.remote.webelement.WebElement (session="27d67265b3a00285a1f4a2c5f4021b71", element="f.3777E1B25043AFD6749B17F408CC4926.d.2F26E2DFC6EA7829E1F7DA7FF0D2EAE3.e.330")&gt;</msg>
-<var>${element}</var>
-<arg>${locator}</arg>
-<doc>Returns the first WebElement matching the given ``locator``.</doc>
-<status status="PASS" start="2026-09-23T14:32:06.395952" elapsed="0.011542"/>
-</kw>
-<kw name="Execute Javascript" owner="SeleniumLibrary">
-<msg time="2026-09-23T14:32:06.409811" level="INFO">Executing JavaScript:
-arguments[0].scrollIntoView({behavior:'instant',block:'center',inline:'center'});arguments[0].focus();arguments[0].dispatchEvent(new MouseEvent('mouseover',{bubbles:true}));arguments[0].dispatchEvent(new MouseEvent('mousedown',{bubbles:true}));arguments[0].click();arguments[0].dispatchEvent(new MouseEvent('mouseup',{bubbles:true}));arguments[0].dispatchEvent(new MouseEvent('click',{bubbles:true,cancelable:true,view:window}));
-By using argument:
-'&lt;selenium.webdriver.remote.webelement.WebElement (session="27d67265b3a00285a1f4a2c5f4021b71", element="f.3777E1B25043AFD6749B17F408CC4926.d.2F26E2DFC6EA7829E1F7DA7FF0D2EAE3.e.330")&gt;'</msg>
-<arg>arguments[0].scrollIntoView({behavior:'instant',block:'center',inline:'center'});</arg>
-<arg>arguments[0].focus();</arg>
-<arg>arguments[0].dispatchEvent(new MouseEvent('mouseover',{bubbles:true}));</arg>
-<arg>arguments[0].dispatchEvent(new MouseEvent('mousedown',{bubbles:true}));</arg>
-<arg>arguments[0].click();</arg>
-<arg>arguments[0].dispatchEvent(new MouseEvent('mouseup',{bubbles:true}));</arg>
-<arg>arguments[0].dispatchEvent(new MouseEvent('click',{bubbles:true,cancelable:true,view:window}));</arg>
-<arg>ARGUMENTS</arg>
-<arg>${element}</arg>
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<status status="PASS" start="2026-09-23T14:32:06.408778" elapsed="0.022843"/>
-</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-09-25T11:52:00.662389" level="INFO">Clicking button '//button[@id="loginBtn"]'.</msg>
 <arg>${LOGIN}[BTN_SIGNIN]</arg>
-<doc>Da click al elemento usando JS</doc>
-<status status="PASS" start="2026-09-23T14:32:06.367272" elapsed="0.064349"/>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-25T11:52:00.662389" elapsed="0.071539"/>
 </kw>
 <kw name="Run Keyword And Return Status" owner="BuiltIn">
 <kw name="verify_element_is_present" owner="Utils">
 <kw name="Run Keyword And Ignore Error" owner="BuiltIn">
 <kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
-<msg time="2026-09-23T14:32:06.605719" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Cambio%20Oferta%20Primaria%20Sin%20Equipo/selenium-screenshot-1.png"&gt;&lt;img src="Cambio%20Oferta%20Primaria%20Sin%20Equipo/selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
-<msg time="2026-09-23T14:32:06.606721" level="FAIL">UnexpectedAlertPresentException: Alert Text: Por favor espere. Se ha enviado una solicitud.
-Message: unexpected alert open: {Alert text : Por favor espere. Se ha enviado una solicitud.}
-  (Session info: chrome=153.0.8010.53)
-Stacktrace:
-	chromedriver!GetHandleVerifier [0x7ff7509cff25+5ae5]
-	chromedriver!(No symbol) [0x7ff7508f2210]
-	chromedriver!(No symbol) [0x7ff750714a9d]
-	chromedriver!(No symbol) [0x7ff7507c0b37]
-	chromedriver!(No symbol) [0x7ff750762202]
-	chromedriver!(No symbol) [0x7ff750763013]
-	chromedriver!GetHandleVerifier [0x7ff750df4231+429df1]
-	chromedriver!GetHandleVerifier [0x7ff750e1fce7+4558a7]
-	chromedriver!GetHandleVerifier [0x7ff750e1413e+449cfe]
-	chromedriver!GetHandleVerifier [0x7ff750acc9ce+10258e]
-	chromedriver!(No symbol) [0x7ff750900545]
-	chromedriver!(No symbol) [0x7ff7508fb6a4]
-	chromedriver!(No symbol) [0x7ff7508fb834]
-	chromedriver!(No symbol) [0x7ff7508e601c]
-	KERNEL32!BaseThreadInitThunk [0x7ffc1061cd87+17]
-	ntdll!RtlUserThreadStart [0x7ffc1098caec+2c]
-</msg>
+<msg time="2026-09-25T11:52:23.368189" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Cambio%20Oferta%20Primaria%20Sin%20Equipo/selenium-screenshot-1.png"&gt;&lt;img src="Cambio%20Oferta%20Primaria%20Sin%20Equipo/selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-09-25T11:52:23.370199" level="FAIL">Element '//div[@id='tip_footdiv']//div[@title='¡Bienvenido al sistema!']' not visible after 15 seconds.</msg>
 <arg>${locator}</arg>
 <arg>15s</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="FAIL" start="2026-09-23T14:32:06.435639" elapsed="0.194016">UnexpectedAlertPresentException: Alert Text: Por favor espere. Se ha enviado una solicitud.
-Message: unexpected alert open: {Alert text : Por favor espere. Se ha enviado una solicitud.}
-  (Session info: chrome=153.0.8010.53)
-Stacktrace:
-	chromedriver!GetHandleVerifier [0x7ff7509cff25+5ae5]
-	chromedriver!(No symbol) [0x7ff7508f2210]
-	chromedriver!(No symbol) [0x7ff750714a9d]
-	chromedriver!(No symbol) [0x7ff7507c0b37]
-	chromedriver!(No symbol) [0x7ff750762202]
-	chromedriver!(No symbol) [0x7ff750763013]
-	chromedriver!GetHandleVerifier [0x7ff750df4231+429df1]
-	chromedriver!GetHandleVerifier [0x7ff750e1fce7+4558a7]
-	chromedriver!GetHandleVerifier [0x7ff750e1413e+449cfe]
-	chromedriver!GetHandleVerifier [0x7ff750acc9ce+10258e]
-	chromedriver!(No symbol) [0x7ff750900545]
-	chromedriver!(No symbol) [0x7ff7508fb6a4]
-	chromedriver!(No symbol) [0x7ff7508fb834]
-	chromedriver!(No symbol) [0x7ff7508e601c]
-	KERNEL32!BaseThreadInitThunk [0x7ffc1061cd87+17]
-	ntdll!RtlUserThreadStart [0x7ffc1098caec+2c]
-</status>
+<status status="FAIL" start="2026-09-25T11:52:00.742193" elapsed="22.692258">Element '//div[@id='tip_footdiv']//div[@title='¡Bienvenido al sistema!']' not visible after 15 seconds.</status>
 </kw>
-<msg time="2026-09-23T14:32:06.630971" level="INFO">${status1} = FAIL</msg>
-<msg time="2026-09-23T14:32:06.632063" level="INFO">${value1} = UnexpectedAlertPresentException: Alert Text: Por favor espere. Se ha enviado una solicitud.
-Message: unexpected alert open: {Alert text : Por favor espere. Se ha enviado una solicitud.}
-  (Session inf...</msg>
+<msg time="2026-09-25T11:52:23.434451" level="INFO">${status1} = FAIL</msg>
+<msg time="2026-09-25T11:52:23.436486" level="INFO">${value1} = Element '//div[@id='tip_footdiv']//div[@title='¡Bienvenido al sistema!']' not visible after 15 seconds.</msg>
 <var>${status1}</var>
 <var>${value1}</var>
 <arg>Wait Until Element Is Visible</arg>
 <arg>${locator}</arg>
 <arg>15s</arg>
-<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
-<status status="PASS" start="2026-09-23T14:32:06.434637" elapsed="0.197426"/>
+<doc>Runs the given keyword with the given arguments and ignores possible errorw.</doc>
+<status status="PASS" start="2026-09-25T11:52:00.738640" elapsed="22.697846"/>
 </kw>
 <kw name="Run Keyword And Ignore Error" owner="BuiltIn">
 <kw name="Scroll Element Into View" owner="SeleniumLibrary">
-<msg time="2026-09-23T14:32:10.422481" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Cambio%20Oferta%20Primaria%20Sin%20Equipo/selenium-screenshot-2.png"&gt;&lt;img src="Cambio%20Oferta%20Primaria%20Sin%20Equipo/selenium-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
-<msg time="2026-09-23T14:32:10.423481" level="FAIL">Element with locator '//div[@id='tip_footdiv']//div[@title='¡Bienvenido al sistema!']' not found.</msg>
+<msg time="2026-09-25T11:52:23.575579" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Cambio%20Oferta%20Primaria%20Sin%20Equipo/selenium-screenshot-2.png"&gt;&lt;img src="Cambio%20Oferta%20Primaria%20Sin%20Equipo/selenium-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-09-25T11:52:23.575579" level="FAIL">Element with locator '//div[@id='tip_footdiv']//div[@title='¡Bienvenido al sistema!']' not found.</msg>
 <arg>${locator}</arg>
 <doc>Scrolls the element identified by ``locator`` into view.</doc>
-<status status="FAIL" start="2026-09-23T14:32:06.634099" elapsed="3.805587">Element with locator '//div[@id='tip_footdiv']//div[@title='¡Bienvenido al sistema!']' not found.</status>
+<status status="FAIL" start="2026-09-25T11:52:23.436486" elapsed="0.202257">Element with locator '//div[@id='tip_footdiv']//div[@title='¡Bienvenido al sistema!']' not found.</status>
 </kw>
-<msg time="2026-09-23T14:32:10.440938" level="INFO">${status2} = FAIL</msg>
-<msg time="2026-09-23T14:32:10.442551" level="INFO">${value2} = Element with locator '//div[@id='tip_footdiv']//div[@title='¡Bienvenido al sistema!']' not found.</msg>
+<msg time="2026-09-25T11:52:23.638743" level="INFO">${status2} = FAIL</msg>
+<msg time="2026-09-25T11:52:23.640751" level="INFO">${value2} = Element with locator '//div[@id='tip_footdiv']//div[@title='¡Bienvenido al sistema!']' not found.</msg>
 <var>${status2}</var>
 <var>${value2}</var>
 <arg>Scroll Element Into View</arg>
 <arg>${locator}</arg>
-<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
-<status status="PASS" start="2026-09-23T14:32:06.633070" elapsed="3.809481"/>
+<doc>Runs the given keyword with the given arguments and ignores possible errorw.</doc>
+<status status="PASS" start="2026-09-25T11:52:23.436486" elapsed="0.204265"/>
 </kw>
 <kw name="Run Keyword If" owner="BuiltIn">
 <kw name="Run Keywords" owner="BuiltIn">
 <kw name="Log" owner="BuiltIn">
-<msg time="2026-09-23T14:32:10.449027" level="INFO">Element not found: //div[@id='tip_footdiv']//div[@title='¡Bienvenido al sistema!']</msg>
+<msg time="2026-09-25T11:52:23.645111" level="INFO">Element not found: //div[@id='tip_footdiv']//div[@title='¡Bienvenido al sistema!']</msg>
 <arg>Element not found: ${locator}</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2026-09-23T14:32:10.447950" elapsed="0.003641"/>
+<status status="PASS" start="2026-09-25T11:52:23.645111" elapsed="0.002006"/>
 </kw>
 <kw name="Fail" owner="BuiltIn">
-<msg time="2026-09-23T14:32:10.455504" level="FAIL">Element not found: //div[@id='tip_footdiv']//div[@title='¡Bienvenido al sistema!']</msg>
+<msg time="2026-09-25T11:52:23.648859" level="FAIL">Element not found: //div[@id='tip_footdiv']//div[@title='¡Bienvenido al sistema!']</msg>
 <arg>Element not found: ${locator}</arg>
-<doc>Fails the test with the given message and optionally alters its tags.</doc>
-<status status="FAIL" start="2026-09-23T14:32:10.451591" elapsed="0.013193">Element not found: //div[@id='tip_footdiv']//div[@title='¡Bienvenido al sistema!']</status>
+<doc>Fails the test or task with the given message and optionally alters its tags.</doc>
+<status status="FAIL" start="2026-09-25T11:52:23.647117" elapsed="0.005957">Element not found: //div[@id='tip_footdiv']//div[@title='¡Bienvenido al sistema!']</status>
 </kw>
 <arg>Log</arg>
 <arg>Element not found: ${locator}</arg>
@@ -554,7 +483,7 @@ Message: unexpected alert open: {Alert text : Por favor espere. Se ha enviado un
 <arg>Fail</arg>
 <arg>Element not found: ${locator}</arg>
 <doc>Executes all the given keywords in a sequence.</doc>
-<status status="FAIL" start="2026-09-23T14:32:10.444672" elapsed="0.021128">Element not found: //div[@id='tip_footdiv']//div[@title='¡Bienvenido al sistema!']</status>
+<status status="FAIL" start="2026-09-25T11:52:23.642759" elapsed="0.010315">Element not found: //div[@id='tip_footdiv']//div[@title='¡Bienvenido al sistema!']</status>
 </kw>
 <arg>'${status1}' == 'FAIL' and '${status2}' == 'FAIL'</arg>
 <arg>Run Keywords</arg>
@@ -563,193 +492,115 @@ Message: unexpected alert open: {Alert text : Por favor espere. Se ha enviado un
 <arg>AND</arg>
 <arg>Fail</arg>
 <arg>Element not found: ${locator}</arg>
-<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
-<status status="FAIL" start="2026-09-23T14:32:10.442551" elapsed="0.024247">Element not found: //div[@id='tip_footdiv']//div[@title='¡Bienvenido al sistema!']</status>
+<doc>Runs the given keyword with the given arguments, if `condition` is true.</doc>
+<status status="FAIL" start="2026-09-25T11:52:23.640751" elapsed="0.012323">Element not found: //div[@id='tip_footdiv']//div[@title='¡Bienvenido al sistema!']</status>
 </kw>
 <kw name="Get WebElement" owner="SeleniumLibrary">
 <var>${WebElement}</var>
 <arg>${locator}</arg>
 <doc>Returns the first WebElement matching the given ``locator``.</doc>
-<status status="NOT RUN" start="2026-09-23T14:32:10.467800" elapsed="0.002021"/>
+<status status="NOT RUN" start="2026-09-25T11:52:23.653074" elapsed="0.000000"/>
 </kw>
 <kw name="Highlight" owner="Yggdrasil">
 <arg>${WebElement}</arg>
 <doc>Highlights (blinks) a Selenium Webdriver element</doc>
-<status status="NOT RUN" start="2026-09-23T14:32:10.470928" elapsed="0.001002"/>
+<status status="NOT RUN" start="2026-09-25T11:52:23.659026" elapsed="0.000000"/>
 </kw>
 <return>
 <value>${status1}</value>
-<status status="NOT RUN" start="2026-09-23T14:32:10.471930" elapsed="0.000000"/>
+<status status="NOT RUN" start="2026-09-25T11:52:23.659026" elapsed="0.000000"/>
 </return>
 <arg>${LOGIN}[MSG_WELCOME]</arg>
-<status status="FAIL" start="2026-09-23T14:32:06.433637" elapsed="4.038293">Element not found: //div[@id='tip_footdiv']//div[@title='¡Bienvenido al sistema!']</status>
+<status status="FAIL" start="2026-09-25T11:52:00.735470" elapsed="22.923556">Element not found: //div[@id='tip_footdiv']//div[@title='¡Bienvenido al sistema!']</status>
 </kw>
-<msg time="2026-09-23T14:32:10.472925" level="INFO">${status} = False</msg>
+<msg time="2026-09-25T11:52:23.659026" level="INFO">${status} = False</msg>
 <var>${status}</var>
 <arg>verify_element_is_present</arg>
 <arg>${LOGIN}[MSG_WELCOME]</arg>
-<doc>Runs the given keyword with given arguments and returns the status as a Boolean value.</doc>
-<status status="PASS" start="2026-09-23T14:32:06.432639" elapsed="4.041588"/>
+<doc>Runs the specified keyword and returns the status as a Boolean value.</doc>
+<status status="PASS" start="2026-09-25T11:52:00.733928" elapsed="22.925098"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2026-09-23T14:32:14.475527" level="INFO">Slept 4 seconds.</msg>
+<msg time="2026-09-25T11:52:27.665525" level="INFO">Slept 4 seconds.</msg>
 <arg>4s</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2026-09-23T14:32:10.474227" elapsed="4.001790"/>
+<doc>Pauses execution for the given time.</doc>
+<status status="PASS" start="2026-09-25T11:52:23.659026" elapsed="4.006499"/>
 </kw>
 <kw name="Run Keyword If" owner="BuiltIn">
 <arg>'${status}'=='True'</arg>
 <arg>Step</arg>
 <arg>acceso correcto a BES CRM</arg>
-<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
-<status status="PASS" start="2026-09-23T14:32:14.477026" elapsed="0.000998"/>
+<doc>Runs the given keyword with the given arguments, if `condition` is true.</doc>
+<status status="PASS" start="2026-09-25T11:52:27.665525" elapsed="0.000000"/>
 </kw>
 <kw name="Wait Until Element Is Not Visible" owner="SeleniumLibrary">
 <arg>${LOGIN}[MSG_WELCOME]</arg>
 <arg>${SYSTEM}[TIMEOUT_10]</arg>
 <doc>Waits until the element ``locator`` is not visible.</doc>
-<status status="PASS" start="2026-09-23T14:32:14.478024" elapsed="13.135340"/>
+<status status="PASS" start="2026-09-25T11:52:27.665525" elapsed="23.935730"/>
 </kw>
 <doc>Open Browser and log in to the application.</doc>
-<status status="PASS" start="2026-09-23T14:31:53.429866" elapsed="34.184497"/>
+<status status="PASS" start="2026-09-25T11:51:48.332977" elapsed="63.268278"/>
 </kw>
 <doc>Close all open sessions to later open a new session,
 go to BES and log in to the application.</doc>
-<status status="PASS" start="2026-09-23T14:31:53.413957" elapsed="34.200406"/>
+<status status="PASS" start="2026-09-25T11:51:48.312312" elapsed="63.288943"/>
 </kw>
 <kw name="Navigation Main Menu" owner="Navigation">
 <kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
 <arg>${NAVIGATION}[MAIN_MENU]</arg>
-<arg>${SYSTEM}[TIMEOUT_20]</arg>
+<arg>${SYSTEM}[TIMEOUT_5]</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" start="2026-09-23T14:32:27.616362" elapsed="4.051922"/>
+<status status="PASS" start="2026-09-25T11:52:51.607303" elapsed="0.055477"/>
 </kw>
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2026-09-23T14:32:31.670309" level="INFO">Clicking element '//a[@id="logoDiv"]/preceding::span'.</msg>
+<msg time="2026-09-25T11:52:51.662780" level="INFO">Clicking element '//a[@id="logoDiv"]/preceding::span'.</msg>
 <arg>${NAVIGATION}[MAIN_MENU]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2026-09-23T14:32:31.668284" elapsed="0.078212"/>
+<status status="PASS" start="2026-09-25T11:52:51.662780" elapsed="0.070446"/>
 </kw>
 <kw name="Replace Values" owner="Yggdrasil">
-<msg time="2026-09-23T14:32:31.748099" level="INFO">${l_menu} = //span[contains(text(),"Operaciones Integradas")] | //div[(text()="Operaciones Integradas")]</msg>
+<msg time="2026-09-25T11:52:51.733226" level="INFO">${l_menu} = //span[contains(text(),"Operaciones Integradas")] | //div[(text()="Operaciones Integradas")]</msg>
 <var>${l_menu}</var>
 <arg>${NAVIGATION}[MENU_SECTION]</arg>
 <arg>${menu_section}</arg>
 <doc>Replaces ``value`` in the given ``text``.</doc>
-<status status="PASS" start="2026-09-23T14:32:31.747589" elapsed="0.000510"/>
+<status status="PASS" start="2026-09-25T11:52:51.733226" elapsed="0.006030"/>
 </kw>
 <kw name="verify_element_is_present" owner="Utils">
 <kw name="Run Keyword And Ignore Error" owner="BuiltIn">
 <kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
-<msg time="2026-09-23T14:33:10.144556" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Cambio%20Oferta%20Primaria%20Sin%20Equipo/selenium-screenshot-3.png"&gt;&lt;img src="Cambio%20Oferta%20Primaria%20Sin%20Equipo/selenium-screenshot-3.png" width="800px"&gt;&lt;/a&gt;</msg>
-<msg time="2026-09-23T14:33:10.145552" level="FAIL">Element '//span[contains(text(),"Operaciones Integradas")] | //div[(text()="Operaciones Integradas")]' not visible after 15 seconds.</msg>
 <arg>${locator}</arg>
 <arg>15s</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="FAIL" start="2026-09-23T14:32:31.751932" elapsed="38.402133">Element '//span[contains(text(),"Operaciones Integradas")] | //div[(text()="Operaciones Integradas")]' not visible after 15 seconds.</status>
+<status status="PASS" start="2026-09-25T11:52:51.739256" elapsed="0.017021"/>
 </kw>
-<msg time="2026-09-23T14:33:10.155130" level="INFO">${status1} = FAIL</msg>
-<msg time="2026-09-23T14:33:10.155130" level="INFO">${value1} = Element '//span[contains(text(),"Operaciones Integradas")] | //div[(text()="Operaciones Integradas")]' not visible after 15 seconds.</msg>
+<msg time="2026-09-25T11:52:51.756277" level="INFO">${status1} = PASS</msg>
+<msg time="2026-09-25T11:52:51.756277" level="INFO">${value1} = None</msg>
 <var>${status1}</var>
 <var>${value1}</var>
 <arg>Wait Until Element Is Visible</arg>
 <arg>${locator}</arg>
 <arg>15s</arg>
-<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
-<status status="PASS" start="2026-09-23T14:32:31.750805" elapsed="38.404325"/>
+<doc>Runs the given keyword with the given arguments and ignores possible errorw.</doc>
+<status status="PASS" start="2026-09-25T11:52:51.739256" elapsed="0.017021"/>
 </kw>
 <kw name="Run Keyword And Ignore Error" owner="BuiltIn">
 <kw name="Scroll Element Into View" owner="SeleniumLibrary">
-<msg time="2026-09-23T14:33:10.231683" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Cambio%20Oferta%20Primaria%20Sin%20Equipo/selenium-screenshot-4.png"&gt;&lt;img src="Cambio%20Oferta%20Primaria%20Sin%20Equipo/selenium-screenshot-4.png" width="800px"&gt;&lt;/a&gt;</msg>
-<msg time="2026-09-23T14:33:10.232194" level="FAIL">ElementNotInteractableException: Message: element not interactable: [object HTMLSpanElement] has no size and location
-  (Session info: chrome=153.0.8010.53); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
-Stacktrace:
-	chromedriver!GetHandleVerifier [0x7ff7509cff25+5ae5]
-	chromedriver!(No symbol) [0x7ff7508f2210]
-	chromedriver!(No symbol) [0x7ff750714a9d]
-	chromedriver!(No symbol) [0x7ff75071cb71]
-	chromedriver!(No symbol) [0x7ff75071fab5]
-	chromedriver!(No symbol) [0x7ff75071fb7f]
-	chromedriver!(No symbol) [0x7ff750777433]
-	chromedriver!(No symbol) [0x7ff750776b1f]
-	chromedriver!(No symbol) [0x7ff7507ca437]
-	chromedriver!(No symbol) [0x7ff7507998fa]
-	chromedriver!(No symbol) [0x7ff7507c00df]
-	chromedriver!(No symbol) [0x7ff750762202]
-	chromedriver!(No symbol) [0x7ff750763013]
-	chromedriver!GetHandleVerifier [0x7ff750df4231+429df1]
-	chromedriver!GetHandleVerifier [0x7ff750e1fce7+4558a7]
-	chromedriver!GetHandleVerifier [0x7ff750e1413e+449cfe]
-	chromedriver!GetHandleVerifier [0x7ff750acc9ce+10258e]
-	chromedriver!(No symbol) [0x7ff750900545]
-	chromedriver!(No symbol) [0x7ff7508fb6a4]
-	chromedriver!(No symbol) [0x7ff7508fb834]
-	chromedriver!(No symbol) [0x7ff7508e601c]
-	KERNEL32!BaseThreadInitThunk [0x7ffc1061cd87+17]
-	ntdll!RtlUserThreadStart [0x7ffc1098caec+2c]
-</msg>
 <arg>${locator}</arg>
 <doc>Scrolls the element identified by ``locator`` into view.</doc>
-<status status="FAIL" start="2026-09-23T14:33:10.157139" elapsed="0.083982">ElementNotInteractableException: Message: element not interactable: [object HTMLSpanElement] has no size and location
-  (Session info: chrome=153.0.8010.53); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
-Stacktrace:
-	chromedriver!GetHandleVerifier [0x7ff7509cff25+5ae5]
-	chromedriver!(No symbol) [0x7ff7508f2210]
-	chromedriver!(No symbol) [0x7ff750714a9d]
-	chromedriver!(No symbol) [0x7ff75071cb71]
-	chromedriver!(No symbol) [0x7ff75071fab5]
-	chromedriver!(No symbol) [0x7ff75071fb7f]
-	chromedriver!(No symbol) [0x7ff750777433]
-	chromedriver!(No symbol) [0x7ff750776b1f]
-	chromedriver!(No symbol) [0x7ff7507ca437]
-	chromedriver!(No symbol) [0x7ff7507998fa]
-	chromedriver!(No symbol) [0x7ff7507c00df]
-	chromedriver!(No symbol) [0x7ff750762202]
-	chromedriver!(No symbol) [0x7ff750763013]
-	chromedriver!GetHandleVerifier [0x7ff750df4231+429df1]
-	chromedriver!GetHandleVerifier [0x7ff750e1fce7+4558a7]
-	chromedriver!GetHandleVerifier [0x7ff750e1413e+449cfe]
-	chromedriver!GetHandleVerifier [0x7ff750acc9ce+10258e]
-	chromedriver!(No symbol) [0x7ff750900545]
-	chromedriver!(No symbol) [0x7ff7508fb6a4]
-	chromedriver!(No symbol) [0x7ff7508fb834]
-	chromedriver!(No symbol) [0x7ff7508e601c]
-	KERNEL32!BaseThreadInitThunk [0x7ffc1061cd87+17]
-	ntdll!RtlUserThreadStart [0x7ffc1098caec+2c]
-</status>
+<status status="PASS" start="2026-09-25T11:52:51.756277" elapsed="0.291795"/>
 </kw>
-<msg time="2026-09-23T14:33:10.242630" level="INFO">${status2} = FAIL</msg>
-<msg time="2026-09-23T14:33:10.243648" level="INFO">${value2} = ElementNotInteractableException: Message: element not interactable: [object HTMLSpanElement] has no size and location
-  (Session info: chrome=153.0.8010.53); For documentation on this error, please vi...</msg>
+<msg time="2026-09-25T11:52:52.048072" level="INFO">${status2} = PASS</msg>
+<msg time="2026-09-25T11:52:52.048072" level="INFO">${value2} = None</msg>
 <var>${status2}</var>
 <var>${value2}</var>
 <arg>Scroll Element Into View</arg>
 <arg>${locator}</arg>
-<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
-<status status="PASS" start="2026-09-23T14:33:10.157139" elapsed="0.086509"/>
+<doc>Runs the given keyword with the given arguments and ignores possible errorw.</doc>
+<status status="PASS" start="2026-09-25T11:52:51.756277" elapsed="0.296849"/>
 </kw>
 <kw name="Run Keyword If" owner="BuiltIn">
-<kw name="Run Keywords" owner="BuiltIn">
-<kw name="Log" owner="BuiltIn">
-<msg time="2026-09-23T14:33:10.246654" level="INFO">Element not found: //span[contains(text(),"Operaciones Integradas")] | //div[(text()="Operaciones Integradas")]</msg>
-<arg>Element not found: ${locator}</arg>
-<doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2026-09-23T14:33:10.245656" elapsed="0.001994"/>
-</kw>
-<kw name="Fail" owner="BuiltIn">
-<msg time="2026-09-23T14:33:10.248650" level="FAIL">Element not found: //span[contains(text(),"Operaciones Integradas")] | //div[(text()="Operaciones Integradas")]</msg>
-<arg>Element not found: ${locator}</arg>
-<doc>Fails the test with the given message and optionally alters its tags.</doc>
-<status status="FAIL" start="2026-09-23T14:33:10.247650" elapsed="0.007835">Element not found: //span[contains(text(),"Operaciones Integradas")] | //div[(text()="Operaciones Integradas")]</status>
-</kw>
-<arg>Log</arg>
-<arg>Element not found: ${locator}</arg>
-<arg>AND</arg>
-<arg>Fail</arg>
-<arg>Element not found: ${locator}</arg>
-<doc>Executes all the given keywords in a sequence.</doc>
-<status status="FAIL" start="2026-09-23T14:33:10.244652" elapsed="0.010833">Element not found: //span[contains(text(),"Operaciones Integradas")] | //div[(text()="Operaciones Integradas")]</status>
-</kw>
 <arg>'${status1}' == 'FAIL' and '${status2}' == 'FAIL'</arg>
 <arg>Run Keywords</arg>
 <arg>Log</arg>
@@ -757,96 +608,1905 @@ Stacktrace:
 <arg>AND</arg>
 <arg>Fail</arg>
 <arg>Element not found: ${locator}</arg>
-<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
-<status status="FAIL" start="2026-09-23T14:33:10.243648" elapsed="0.012835">Element not found: //span[contains(text(),"Operaciones Integradas")] | //div[(text()="Operaciones Integradas")]</status>
+<doc>Runs the given keyword with the given arguments, if `condition` is true.</doc>
+<status status="PASS" start="2026-09-25T11:52:52.057122" elapsed="0.008303"/>
 </kw>
 <kw name="Get WebElement" owner="SeleniumLibrary">
+<msg time="2026-09-25T11:52:53.727427" level="INFO">${WebElement} = &lt;selenium.webdriver.remote.webelement.WebElement (session="db842fe832e54a6b7b13e9360bab1b7c", element="f.8CF758237763768FF4971F615291CBD8.d.421D2FCF15CA9DCFC5A4F5E62F393739.e.90")&gt;</msg>
 <var>${WebElement}</var>
 <arg>${locator}</arg>
 <doc>Returns the first WebElement matching the given ``locator``.</doc>
-<status status="NOT RUN" start="2026-09-23T14:33:10.256483" elapsed="0.002006"/>
+<status status="PASS" start="2026-09-25T11:52:52.068458" elapsed="1.658969"/>
 </kw>
 <kw name="Highlight" owner="Yggdrasil">
 <arg>${WebElement}</arg>
 <doc>Highlights (blinks) a Selenium Webdriver element</doc>
-<status status="NOT RUN" start="2026-09-23T14:33:10.258489" elapsed="0.000000"/>
+<status status="PASS" start="2026-09-25T11:52:53.733249" elapsed="0.276480"/>
 </kw>
 <return>
 <value>${status1}</value>
-<status status="NOT RUN" start="2026-09-23T14:33:10.259488" elapsed="0.000000"/>
+<status status="PASS" start="2026-09-25T11:52:54.013118" elapsed="0.002094"/>
 </return>
 <arg>${l_menu}</arg>
-<status status="FAIL" start="2026-09-23T14:32:31.749579" elapsed="38.509909">Element not found: //span[contains(text(),"Operaciones Integradas")] | //div[(text()="Operaciones Integradas")]</status>
+<status status="PASS" start="2026-09-25T11:52:51.739256" elapsed="2.275956"/>
 </kw>
 <kw name="Step" owner="Utils">
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2026-09-25T11:52:54.017242" level="INFO">${STEP_NUMBER} = 3</msg>
+<var>${STEP_NUMBER}</var>
+<arg>${STEP_NUMBER} + 1</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2026-09-25T11:52:54.017242" elapsed="0.000000"/>
+</kw>
+<kw name="Set Suite Variable" owner="BuiltIn">
+<msg time="2026-09-25T11:52:54.017242" level="INFO">${STEP_NUMBER} = 3</msg>
+<arg>${STEP_NUMBER}</arg>
+<doc>Makes the variable available everywhere within the scope of the current suite.</doc>
+<status status="PASS" start="2026-09-25T11:52:54.017242" elapsed="0.000000"/>
+</kw>
+<kw name="Get Time" owner="BuiltIn">
+<msg time="2026-09-25T11:52:54.017242" level="INFO">${timestamp} = 2026-09-25 11:52:54</msg>
+<var>${timestamp}</var>
+<arg>result_format=%Y%m%d_%H%M%S</arg>
+<doc>Returns the given time in the requested format.</doc>
+<status status="PASS" start="2026-09-25T11:52:54.017242" elapsed="0.005981"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>▶ Step ${STEP_NUMBER}: ${description}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-09-25T11:52:54.023223" elapsed="0.000937"/>
+</kw>
+<kw name="Replace String Using Regexp" owner="String">
+<msg time="2026-09-25T11:52:54.026213" level="INFO">${file_name} = 3_2026-09-25_11_52_54_Seleccion_de_menu_Operaciones_Integradas.png</msg>
+<var>${file_name}</var>
+<arg>${STEP_NUMBER}_${timestamp}_${description}.png</arg>
+<arg>[^a-zA-Z0-9_.-]</arg>
+<arg>_</arg>
+<doc>Replaces `pattern` in the given `string` with `replace_with`.</doc>
+<status status="PASS" start="2026-09-25T11:52:54.024160" elapsed="0.002053"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2026-09-25T11:52:54.118460" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Cambio%20Oferta%20Primaria%20Sin%20Equipo/3_2026-09-25_11_52_54_Seleccion_de_menu_Operaciones_Integradas.png"&gt;&lt;img src="Cambio%20Oferta%20Primaria%20Sin%20Equipo/3_2026-09-25_11_52_54_Seleccion_de_menu_Operaciones_Integradas.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>${file_name}</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2026-09-25T11:52:54.026213" elapsed="0.096978"/>
+</kw>
 <arg>Seleccion de menu ${MenuSection}</arg>
 <doc>Keyword que saca el numero de paso y captura evidencia
 reemplazando el capture page screenshoot</doc>
-<status status="NOT RUN" start="2026-09-23T14:33:10.260482" elapsed="0.000000"/>
+<status status="PASS" start="2026-09-25T11:52:54.017242" elapsed="0.105949"/>
 </kw>
 <kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-09-25T11:52:54.123191" level="INFO">Clicking element '//span[contains(text(),"Operaciones Integradas")] | //div[(text()="Operaciones Integradas")]'.</msg>
 <arg>${l_menu}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="NOT RUN" start="2026-09-23T14:33:10.260482" elapsed="0.001004"/>
+<status status="PASS" start="2026-09-25T11:52:54.123191" elapsed="0.076011"/>
 </kw>
 <kw name="Replace Values" owner="Yggdrasil">
+<msg time="2026-09-25T11:52:54.199202" level="INFO">${l_submenu} = //a[@title='Cambio de Oferta Primaria']</msg>
 <var>${l_submenu}</var>
 <arg>${NAVIGATION}[MENU_OPTION]</arg>
 <arg>${menu_option}</arg>
 <doc>Replaces ``value`` in the given ``text``.</doc>
-<status status="NOT RUN" start="2026-09-23T14:33:10.261486" elapsed="0.000996"/>
+<status status="PASS" start="2026-09-25T11:52:54.199202" elapsed="0.000000"/>
 </kw>
 <kw name="verify_element_is_present" owner="Utils">
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${locator}</arg>
+<arg>15s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-09-25T11:52:54.205154" elapsed="0.016736"/>
+</kw>
+<msg time="2026-09-25T11:52:54.221890" level="INFO">${status1} = PASS</msg>
+<msg time="2026-09-25T11:52:54.222936" level="INFO">${value1} = None</msg>
+<var>${status1}</var>
+<var>${value1}</var>
+<arg>Wait Until Element Is Visible</arg>
+<arg>${locator}</arg>
+<arg>15s</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible errorw.</doc>
+<status status="PASS" start="2026-09-25T11:52:54.204136" elapsed="0.018800"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Scroll Element Into View" owner="SeleniumLibrary">
+<arg>${locator}</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" start="2026-09-25T11:52:54.224466" elapsed="0.286145"/>
+</kw>
+<msg time="2026-09-25T11:52:54.511014" level="INFO">${status2} = PASS</msg>
+<msg time="2026-09-25T11:52:54.513144" level="INFO">${value2} = None</msg>
+<var>${status2}</var>
+<var>${value2}</var>
+<arg>Scroll Element Into View</arg>
+<arg>${locator}</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible errorw.</doc>
+<status status="PASS" start="2026-09-25T11:52:54.222936" elapsed="0.290208"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<arg>'${status1}' == 'FAIL' and '${status2}' == 'FAIL'</arg>
+<arg>Run Keywords</arg>
+<arg>Log</arg>
+<arg>Element not found: ${locator}</arg>
+<arg>AND</arg>
+<arg>Fail</arg>
+<arg>Element not found: ${locator}</arg>
+<doc>Runs the given keyword with the given arguments, if `condition` is true.</doc>
+<status status="PASS" start="2026-09-25T11:52:54.516742" elapsed="0.004531"/>
+</kw>
+<kw name="Get WebElement" owner="SeleniumLibrary">
+<msg time="2026-09-25T11:52:54.543746" level="INFO">${WebElement} = &lt;selenium.webdriver.remote.webelement.WebElement (session="db842fe832e54a6b7b13e9360bab1b7c", element="f.8CF758237763768FF4971F615291CBD8.d.421D2FCF15CA9DCFC5A4F5E62F393739.e.106")&gt;</msg>
+<var>${WebElement}</var>
+<arg>${locator}</arg>
+<doc>Returns the first WebElement matching the given ``locator``.</doc>
+<status status="PASS" start="2026-09-25T11:52:54.525353" elapsed="0.018393"/>
+</kw>
+<kw name="Highlight" owner="Yggdrasil">
+<arg>${WebElement}</arg>
+<doc>Highlights (blinks) a Selenium Webdriver element</doc>
+<status status="PASS" start="2026-09-25T11:52:54.543746" elapsed="0.279403"/>
+</kw>
+<return>
+<value>${status1}</value>
+<status status="PASS" start="2026-09-25T11:52:54.823149" elapsed="0.000000"/>
+</return>
 <arg>${l_submenu}</arg>
-<status status="NOT RUN" start="2026-09-23T14:33:10.262482" elapsed="0.000000"/>
+<status status="PASS" start="2026-09-25T11:52:54.199202" elapsed="0.623947"/>
 </kw>
 <kw name="Step" owner="Utils">
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2026-09-25T11:52:54.825774" level="INFO">${STEP_NUMBER} = 4</msg>
+<var>${STEP_NUMBER}</var>
+<arg>${STEP_NUMBER} + 1</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2026-09-25T11:52:54.825774" elapsed="0.002753"/>
+</kw>
+<kw name="Set Suite Variable" owner="BuiltIn">
+<msg time="2026-09-25T11:52:54.834247" level="INFO">${STEP_NUMBER} = 4</msg>
+<arg>${STEP_NUMBER}</arg>
+<doc>Makes the variable available everywhere within the scope of the current suite.</doc>
+<status status="PASS" start="2026-09-25T11:52:54.833180" elapsed="0.001067"/>
+</kw>
+<kw name="Get Time" owner="BuiltIn">
+<msg time="2026-09-25T11:52:54.834247" level="INFO">${timestamp} = 2026-09-25 11:52:54</msg>
+<var>${timestamp}</var>
+<arg>result_format=%Y%m%d_%H%M%S</arg>
+<doc>Returns the given time in the requested format.</doc>
+<status status="PASS" start="2026-09-25T11:52:54.834247" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>▶ Step ${STEP_NUMBER}: ${description}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-09-25T11:52:54.834247" elapsed="0.000000"/>
+</kw>
+<kw name="Replace String Using Regexp" owner="String">
+<msg time="2026-09-25T11:52:54.840958" level="INFO">${file_name} = 4_2026-09-25_11_52_54_Seleccion_de_flujo_Cambio_de_Oferta_Primaria.png</msg>
+<var>${file_name}</var>
+<arg>${STEP_NUMBER}_${timestamp}_${description}.png</arg>
+<arg>[^a-zA-Z0-9_.-]</arg>
+<arg>_</arg>
+<doc>Replaces `pattern` in the given `string` with `replace_with`.</doc>
+<status status="PASS" start="2026-09-25T11:52:54.834247" elapsed="0.017362"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2026-09-25T11:52:55.004888" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Cambio%20Oferta%20Primaria%20Sin%20Equipo/4_2026-09-25_11_52_54_Seleccion_de_flujo_Cambio_de_Oferta_Primaria.png"&gt;&lt;img src="Cambio%20Oferta%20Primaria%20Sin%20Equipo/4_2026-09-25_11_52_54_Seleccion_de_flujo_Cambio_de_Oferta_Primaria.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>${file_name}</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2026-09-25T11:52:54.857252" elapsed="0.147636"/>
+</kw>
 <arg>Seleccion de flujo ${MenuOption}</arg>
 <doc>Keyword que saca el numero de paso y captura evidencia
 reemplazando el capture page screenshoot</doc>
-<status status="NOT RUN" start="2026-09-23T14:33:10.262482" elapsed="0.001510"/>
+<status status="PASS" start="2026-09-25T11:52:54.824732" elapsed="0.180156"/>
 </kw>
 <kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-09-25T11:52:55.010261" level="INFO">Clicking element '//a[@title='Cambio de Oferta Primaria']'.</msg>
 <arg>${l_submenu}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="NOT RUN" start="2026-09-23T14:33:10.263992" elapsed="0.000000"/>
+<status status="PASS" start="2026-09-25T11:52:55.004888" elapsed="0.162882"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
+<msg time="2026-09-25T11:53:03.167819" level="INFO">Slept 8 seconds.</msg>
 <arg>8s</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<status status="NOT RUN" start="2026-09-23T14:33:10.265053" elapsed="0.000000"/>
+<doc>Pauses execution for the given time.</doc>
+<status status="PASS" start="2026-09-25T11:52:55.167770" elapsed="8.000049"/>
 </kw>
 <doc>Select the main menu option received using the arguments
 ${First_Option} - Select the main options in the menu (Gestion de la Ordes, Operaciones Integradas y Gestion de IPCC)
 ${Second_Option} - Select the sub menu option you wish to enter, example: ...    ${First_Option} - Select the two main options in the menu (Integrated Options or IPCC Management)
 ${Second_Option} - Select the menu option you wish to enter, example: Vista 360 Grados</doc>
-<status status="FAIL" start="2026-09-23T14:32:27.615362" elapsed="42.650710">Element not found: //span[contains(text(),"Operaciones Integradas")] | //div[(text()="Operaciones Integradas")]</status>
+<status status="PASS" start="2026-09-25T11:52:51.603265" elapsed="11.564554"/>
 </kw>
 <kw name="Search Customer With One Parameter" owner="Search_Customer">
+<kw name="Search Customer Placeholder" owner="Search_Customer">
+<kw name="get_actual_frame" owner="Utils">
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Unselect Frame" owner="SeleniumLibrary">
+<doc>Sets the main frame as the current frame.</doc>
+<status status="PASS" start="2026-09-25T11:53:03.173063" elapsed="0.985379"/>
+</kw>
+<arg>Unselect Frame</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible errorw.</doc>
+<status status="PASS" start="2026-09-25T11:53:03.173063" elapsed="0.985379"/>
+</kw>
+<kw name="Wait Until Element Is Enabled" owner="SeleniumLibrary">
+<arg>${NAVIGATION}[IFR_CONTAINER]</arg>
+<arg>${SYSTEM}[TIMEOUT_500]</arg>
+<doc>Waits until the element ``locator`` is enabled.</doc>
+<status status="PASS" start="2026-09-25T11:53:04.158442" elapsed="0.024948"/>
+</kw>
+<kw name="Get Element Count" owner="SeleniumLibrary">
+<msg time="2026-09-25T11:53:04.193358" level="INFO">${count} = 2</msg>
+<var>${count}</var>
+<arg>${NAVIGATION}[IFR_CONTAINER]</arg>
+<doc>Returns the number of elements matching ``locator``.</doc>
+<status status="PASS" start="2026-09-25T11:53:04.183390" elapsed="0.009968"/>
+</kw>
+<kw name="Convert To String" owner="BuiltIn">
+<msg time="2026-09-25T11:53:04.195604" level="INFO">${value} = 2</msg>
+<var>${value}</var>
+<arg>${count}</arg>
+<doc>Converts the given item to a Unicode string.</doc>
+<status status="PASS" start="2026-09-25T11:53:04.195604" elapsed="0.000000"/>
+</kw>
+<kw name="Replace Values" owner="Yggdrasil">
+<msg time="2026-09-25T11:53:04.195604" level="INFO">${l_iframe} = //iframe[2]</msg>
+<var>${l_iframe}</var>
+<arg>${IFRAME_LIST}[IFRAME]</arg>
+<arg>${value}</arg>
+<doc>Replaces ``value`` in the given ``text``.</doc>
+<status status="PASS" start="2026-09-25T11:53:04.195604" elapsed="0.000000"/>
+</kw>
+<kw name="Get Element Attribute" owner="SeleniumLibrary">
+<msg time="2026-09-25T11:53:04.215850" level="INFO">${source} = https://10.59.10.213/oc/resource.root/bes/omni/standard/artificial/html/customerauth/customerauth.html?menuid=6013120160524101&amp;build=undefined</msg>
+<var>${source}</var>
+<arg>${l_iframe}</arg>
+<arg>src</arg>
+<doc>Returns the value of ``attribute`` from the element ``locator``.</doc>
+<status status="PASS" start="2026-09-25T11:53:04.195604" elapsed="0.020246"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${l_iframe}</arg>
+<arg>${SYSTEM}[TIMEOUT_500]</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-09-25T11:53:04.215850" elapsed="0.009627"/>
+</kw>
+<kw name="Wait Until Keyword Succeeds" owner="BuiltIn">
+<kw name="Select Frame" owner="SeleniumLibrary">
+<msg time="2026-09-25T11:53:04.225477" level="INFO">Selecting frame '//iframe[2]'.</msg>
+<arg>${l_iframe}</arg>
+<doc>Sets frame identified by ``locator`` as the current frame.</doc>
+<status status="PASS" start="2026-09-25T11:53:04.225477" elapsed="0.260543"/>
+</kw>
+<arg>5x</arg>
+<arg>1min</arg>
+<arg>Select Frame</arg>
+<arg>${l_iframe}</arg>
+<doc>Runs the specified keyword and retries if it fails.</doc>
+<status status="PASS" start="2026-09-25T11:53:04.225477" elapsed="0.260543"/>
+</kw>
+<status status="PASS" start="2026-09-25T11:53:03.173063" elapsed="1.318302"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${SEARCH_INFORMATION}[LABEL]</arg>
+<arg>${SYSTEM}[TIMEOUT_30]</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-09-25T11:53:04.491365" elapsed="0.019882"/>
+</kw>
+<kw name="Replace String" owner="String">
+<msg time="2026-09-25T11:53:04.513309" level="INFO">${SEARCH_CUSTOMER_BY} = //label[@title='CURP']/following-sibling::div//input</msg>
+<var>${SEARCH_CUSTOMER_BY}</var>
+<arg>${SEARCH_INFORMATION}[SEARCH_PLACEHOLDER]</arg>
+<arg>{}</arg>
+<arg>${search_by}</arg>
+<doc>Replaces `search_for` in the given `string` with `replace_with`.</doc>
+<status status="PASS" start="2026-09-25T11:53:04.511247" elapsed="0.002062"/>
+</kw>
+<kw name="verify_element_is_present" owner="Utils">
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${locator}</arg>
+<arg>15s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-09-25T11:53:04.515848" elapsed="0.015370"/>
+</kw>
+<msg time="2026-09-25T11:53:04.531218" level="INFO">${status1} = PASS</msg>
+<msg time="2026-09-25T11:53:04.531218" level="INFO">${value1} = None</msg>
+<var>${status1}</var>
+<var>${value1}</var>
+<arg>Wait Until Element Is Visible</arg>
+<arg>${locator}</arg>
+<arg>15s</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible errorw.</doc>
+<status status="PASS" start="2026-09-25T11:53:04.515848" elapsed="0.016923"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Scroll Element Into View" owner="SeleniumLibrary">
+<arg>${locator}</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" start="2026-09-25T11:53:04.534294" elapsed="0.305122"/>
+</kw>
+<msg time="2026-09-25T11:53:04.845470" level="INFO">${status2} = PASS</msg>
+<msg time="2026-09-25T11:53:04.847483" level="INFO">${value2} = None</msg>
+<var>${status2}</var>
+<var>${value2}</var>
+<arg>Scroll Element Into View</arg>
+<arg>${locator}</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible errorw.</doc>
+<status status="PASS" start="2026-09-25T11:53:04.533282" elapsed="0.316238"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<arg>'${status1}' == 'FAIL' and '${status2}' == 'FAIL'</arg>
+<arg>Run Keywords</arg>
+<arg>Log</arg>
+<arg>Element not found: ${locator}</arg>
+<arg>AND</arg>
+<arg>Fail</arg>
+<arg>Element not found: ${locator}</arg>
+<doc>Runs the given keyword with the given arguments, if `condition` is true.</doc>
+<status status="PASS" start="2026-09-25T11:53:04.853050" elapsed="0.002101"/>
+</kw>
+<kw name="Get WebElement" owner="SeleniumLibrary">
+<msg time="2026-09-25T11:53:04.858487" level="INFO">${WebElement} = &lt;selenium.webdriver.remote.webelement.WebElement (session="db842fe832e54a6b7b13e9360bab1b7c", element="f.15CB5AACA7AE693C2FF28B57DAC76298.d.08AADAE96A0E76E6880D5CB431660285.e.157")&gt;</msg>
+<var>${WebElement}</var>
+<arg>${locator}</arg>
+<doc>Returns the first WebElement matching the given ``locator``.</doc>
+<status status="PASS" start="2026-09-25T11:53:04.857162" elapsed="0.013157"/>
+</kw>
+<kw name="Highlight" owner="Yggdrasil">
+<arg>${WebElement}</arg>
+<doc>Highlights (blinks) a Selenium Webdriver element</doc>
+<status status="PASS" start="2026-09-25T11:53:04.870319" elapsed="0.224933"/>
+</kw>
+<return>
+<value>${status1}</value>
+<status status="PASS" start="2026-09-25T11:53:05.095252" elapsed="0.002466"/>
+</return>
+<arg>${SEARCH_CUSTOMER_BY}</arg>
+<status status="PASS" start="2026-09-25T11:53:04.513309" elapsed="0.584409"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-09-25T11:53:05.097718" level="INFO">Typing text 'WOHM790806MCLXYZ12' into text field '//label[@title='CURP']/following-sibling::div//input'.</msg>
+<arg>${SEARCH_CUSTOMER_BY}</arg>
+<arg>${search_value}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-25T11:53:05.097718" elapsed="0.232977"/>
+</kw>
+<kw name="Step" owner="Utils">
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2026-09-25T11:53:05.336980" level="INFO">${STEP_NUMBER} = 5</msg>
+<var>${STEP_NUMBER}</var>
+<arg>${STEP_NUMBER} + 1</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2026-09-25T11:53:05.334971" elapsed="0.002009"/>
+</kw>
+<kw name="Set Suite Variable" owner="BuiltIn">
+<msg time="2026-09-25T11:53:05.338988" level="INFO">${STEP_NUMBER} = 5</msg>
+<arg>${STEP_NUMBER}</arg>
+<doc>Makes the variable available everywhere within the scope of the current suite.</doc>
+<status status="PASS" start="2026-09-25T11:53:05.336980" elapsed="0.002008"/>
+</kw>
+<kw name="Get Time" owner="BuiltIn">
+<msg time="2026-09-25T11:53:05.345208" level="INFO">${timestamp} = 2026-09-25 11:53:05</msg>
+<var>${timestamp}</var>
+<arg>result_format=%Y%m%d_%H%M%S</arg>
+<doc>Returns the given time in the requested format.</doc>
+<status status="PASS" start="2026-09-25T11:53:05.338988" elapsed="0.007758"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>▶ Step ${STEP_NUMBER}: ${description}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-09-25T11:53:05.350186" elapsed="0.001590"/>
+</kw>
+<kw name="Replace String Using Regexp" owner="String">
+<msg time="2026-09-25T11:53:05.353291" level="INFO">${file_name} = 5_2026-09-25_11_53_05_Busqueda_por_CURP_el_Suscriptor_WOHM790806MCLXYZ12.png</msg>
+<var>${file_name}</var>
+<arg>${STEP_NUMBER}_${timestamp}_${description}.png</arg>
+<arg>[^a-zA-Z0-9_.-]</arg>
+<arg>_</arg>
+<doc>Replaces `pattern` in the given `string` with `replace_with`.</doc>
+<status status="PASS" start="2026-09-25T11:53:05.351776" elapsed="0.001515"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2026-09-25T11:53:05.459109" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Cambio%20Oferta%20Primaria%20Sin%20Equipo/5_2026-09-25_11_53_05_Busqueda_por_CURP_el_Suscriptor_WOHM790806MCLXYZ12.png"&gt;&lt;img src="Cambio%20Oferta%20Primaria%20Sin%20Equipo/5_2026-09-25_11_53_05_Busqueda_por_CURP_el_Suscriptor_WOHM790806MCLXYZ12.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>${file_name}</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2026-09-25T11:53:05.353291" elapsed="0.105818"/>
+</kw>
+<arg>Busqueda por ${search_by} el Suscriptor ${search_value}</arg>
+<doc>Keyword que saca el numero de paso y captura evidencia
+reemplazando el capture page screenshoot</doc>
+<status status="PASS" start="2026-09-25T11:53:05.333229" elapsed="0.125880"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-09-25T11:53:05.459109" level="INFO">Clicking element '//button[contains(.,"Buscar")]'.</msg>
+<arg>${BUTTON}[SEARCH]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-25T11:53:05.459109" elapsed="0.148982"/>
+</kw>
+<kw name="Select Customer From List" owner="Search_Customer">
+<kw name="verify_element_is_present" owner="Utils">
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${locator}</arg>
+<arg>15s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-09-25T11:53:05.615638" elapsed="0.023782"/>
+</kw>
+<msg time="2026-09-25T11:53:05.639420" level="INFO">${status1} = PASS</msg>
+<msg time="2026-09-25T11:53:05.639420" level="INFO">${value1} = None</msg>
+<var>${status1}</var>
+<var>${value1}</var>
+<arg>Wait Until Element Is Visible</arg>
+<arg>${locator}</arg>
+<arg>15s</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible errorw.</doc>
+<status status="PASS" start="2026-09-25T11:53:05.615638" elapsed="0.023782"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Scroll Element Into View" owner="SeleniumLibrary">
+<arg>${locator}</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" start="2026-09-25T11:53:05.648022" elapsed="0.294186"/>
+</kw>
+<msg time="2026-09-25T11:53:05.943219" level="INFO">${status2} = PASS</msg>
+<msg time="2026-09-25T11:53:05.943219" level="INFO">${value2} = None</msg>
+<var>${status2}</var>
+<var>${value2}</var>
+<arg>Scroll Element Into View</arg>
+<arg>${locator}</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible errorw.</doc>
+<status status="PASS" start="2026-09-25T11:53:05.639420" elapsed="0.303799"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<arg>'${status1}' == 'FAIL' and '${status2}' == 'FAIL'</arg>
+<arg>Run Keywords</arg>
+<arg>Log</arg>
+<arg>Element not found: ${locator}</arg>
+<arg>AND</arg>
+<arg>Fail</arg>
+<arg>Element not found: ${locator}</arg>
+<doc>Runs the given keyword with the given arguments, if `condition` is true.</doc>
+<status status="PASS" start="2026-09-25T11:53:05.945626" elapsed="0.004584"/>
+</kw>
+<kw name="Get WebElement" owner="SeleniumLibrary">
+<msg time="2026-09-25T11:53:05.958737" level="INFO">${WebElement} = &lt;selenium.webdriver.remote.webelement.WebElement (session="db842fe832e54a6b7b13e9360bab1b7c", element="f.15CB5AACA7AE693C2FF28B57DAC76298.d.08AADAE96A0E76E6880D5CB431660285.e.180")&gt;</msg>
+<var>${WebElement}</var>
+<arg>${locator}</arg>
+<doc>Returns the first WebElement matching the given ``locator``.</doc>
+<status status="PASS" start="2026-09-25T11:53:05.950210" elapsed="0.008527"/>
+</kw>
+<kw name="Highlight" owner="Yggdrasil">
+<arg>${WebElement}</arg>
+<doc>Highlights (blinks) a Selenium Webdriver element</doc>
+<status status="PASS" start="2026-09-25T11:53:05.958737" elapsed="0.224398"/>
+</kw>
+<return>
+<value>${status1}</value>
+<status status="PASS" start="2026-09-25T11:53:06.183135" elapsed="0.000000"/>
+</return>
+<arg>${CUSTOMER}[LBL_TOTAL]</arg>
+<status status="PASS" start="2026-09-25T11:53:05.612845" elapsed="0.573238"/>
+</kw>
+<kw name="Run Keyword And Return Status" owner="BuiltIn">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${CUSTOMER}[NUM]</arg>
+<arg>${SYSTEM}[TIMEOUT_10]</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-09-25T11:53:06.186083" elapsed="0.030932"/>
+</kw>
+<msg time="2026-09-25T11:53:06.217015" level="INFO">${status} = True</msg>
+<var>${status}</var>
+<arg>Wait Until Element Is Visible</arg>
+<arg>${CUSTOMER}[NUM]</arg>
+<arg>${SYSTEM}[TIMEOUT_10]</arg>
+<doc>Runs the specified keyword and returns the status as a Boolean value.</doc>
+<status status="PASS" start="2026-09-25T11:53:06.186083" elapsed="0.030932"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<arg>'${status}'=='False'</arg>
+<arg>Scroll Element Into View</arg>
+<arg>${CUSTOMER}[NUM]</arg>
+<doc>Runs the given keyword with the given arguments, if `condition` is true.</doc>
+<status status="PASS" start="2026-09-25T11:53:06.217015" elapsed="0.000000"/>
+</kw>
+<kw name="Get Text" owner="SeleniumLibrary">
+<msg time="2026-09-25T11:53:06.235649" level="INFO">${l_num} = 1</msg>
+<var>${l_num}</var>
+<arg>${CUSTOMER}[NUM]</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-25T11:53:06.217015" elapsed="0.018634"/>
+</kw>
+<kw name="Step" owner="Utils">
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2026-09-25T11:53:06.247053" level="INFO">${STEP_NUMBER} = 6</msg>
+<var>${STEP_NUMBER}</var>
+<arg>${STEP_NUMBER} + 1</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2026-09-25T11:53:06.243119" elapsed="0.003934"/>
+</kw>
+<kw name="Set Suite Variable" owner="BuiltIn">
+<msg time="2026-09-25T11:53:06.247053" level="INFO">${STEP_NUMBER} = 6</msg>
+<arg>${STEP_NUMBER}</arg>
+<doc>Makes the variable available everywhere within the scope of the current suite.</doc>
+<status status="PASS" start="2026-09-25T11:53:06.247053" elapsed="0.003751"/>
+</kw>
+<kw name="Get Time" owner="BuiltIn">
+<msg time="2026-09-25T11:53:06.250804" level="INFO">${timestamp} = 2026-09-25 11:53:06</msg>
+<var>${timestamp}</var>
+<arg>result_format=%Y%m%d_%H%M%S</arg>
+<doc>Returns the given time in the requested format.</doc>
+<status status="PASS" start="2026-09-25T11:53:06.250804" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>▶ Step ${STEP_NUMBER}: ${description}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-09-25T11:53:06.253358" elapsed="0.000000"/>
+</kw>
+<kw name="Replace String Using Regexp" owner="String">
+<msg time="2026-09-25T11:53:06.253358" level="INFO">${file_name} = 6_2026-09-25_11_53_06_Seleccion_del_primer_cliente_de_la_lista.png</msg>
+<var>${file_name}</var>
+<arg>${STEP_NUMBER}_${timestamp}_${description}.png</arg>
+<arg>[^a-zA-Z0-9_.-]</arg>
+<arg>_</arg>
+<doc>Replaces `pattern` in the given `string` with `replace_with`.</doc>
+<status status="PASS" start="2026-09-25T11:53:06.253358" elapsed="0.000000"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2026-09-25T11:53:06.357359" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Cambio%20Oferta%20Primaria%20Sin%20Equipo/6_2026-09-25_11_53_06_Seleccion_del_primer_cliente_de_la_lista.png"&gt;&lt;img src="Cambio%20Oferta%20Primaria%20Sin%20Equipo/6_2026-09-25_11_53_06_Seleccion_del_primer_cliente_de_la_lista.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>${file_name}</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2026-09-25T11:53:06.253358" elapsed="0.105494"/>
+</kw>
+<arg>Seleccion del primer cliente de la lista</arg>
+<doc>Keyword que saca el numero de paso y captura evidencia
+reemplazando el capture page screenshoot</doc>
+<status status="PASS" start="2026-09-25T11:53:06.235649" elapsed="0.123203"/>
+</kw>
+<if>
+<branch type="IF" condition="${l_num} &gt; 0">
+<kw name="verify_element_is_present" owner="Utils">
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${locator}</arg>
+<arg>15s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-09-25T11:53:06.362932" elapsed="0.018311"/>
+</kw>
+<msg time="2026-09-25T11:53:06.383250" level="INFO">${status1} = PASS</msg>
+<msg time="2026-09-25T11:53:06.383250" level="INFO">${value1} = None</msg>
+<var>${status1}</var>
+<var>${value1}</var>
+<arg>Wait Until Element Is Visible</arg>
+<arg>${locator}</arg>
+<arg>15s</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible errorw.</doc>
+<status status="PASS" start="2026-09-25T11:53:06.361423" elapsed="0.021827"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Scroll Element Into View" owner="SeleniumLibrary">
+<arg>${locator}</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" start="2026-09-25T11:53:06.383250" elapsed="0.294286"/>
+</kw>
+<msg time="2026-09-25T11:53:06.677536" level="INFO">${status2} = PASS</msg>
+<msg time="2026-09-25T11:53:06.677536" level="INFO">${value2} = None</msg>
+<var>${status2}</var>
+<var>${value2}</var>
+<arg>Scroll Element Into View</arg>
+<arg>${locator}</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible errorw.</doc>
+<status status="PASS" start="2026-09-25T11:53:06.383250" elapsed="0.294286"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<arg>'${status1}' == 'FAIL' and '${status2}' == 'FAIL'</arg>
+<arg>Run Keywords</arg>
+<arg>Log</arg>
+<arg>Element not found: ${locator}</arg>
+<arg>AND</arg>
+<arg>Fail</arg>
+<arg>Element not found: ${locator}</arg>
+<doc>Runs the given keyword with the given arguments, if `condition` is true.</doc>
+<status status="PASS" start="2026-09-25T11:53:06.677536" elapsed="0.000000"/>
+</kw>
+<kw name="Get WebElement" owner="SeleniumLibrary">
+<msg time="2026-09-25T11:53:06.702885" level="INFO">${WebElement} = &lt;selenium.webdriver.remote.webelement.WebElement (session="db842fe832e54a6b7b13e9360bab1b7c", element="f.15CB5AACA7AE693C2FF28B57DAC76298.d.08AADAE96A0E76E6880D5CB431660285.e.184")&gt;</msg>
+<var>${WebElement}</var>
+<arg>${locator}</arg>
+<doc>Returns the first WebElement matching the given ``locator``.</doc>
+<status status="PASS" start="2026-09-25T11:53:06.677536" elapsed="0.025349"/>
+</kw>
+<kw name="Highlight" owner="Yggdrasil">
+<arg>${WebElement}</arg>
+<doc>Highlights (blinks) a Selenium Webdriver element</doc>
+<status status="PASS" start="2026-09-25T11:53:06.702885" elapsed="0.225499"/>
+</kw>
+<return>
+<value>${status1}</value>
+<status status="PASS" start="2026-09-25T11:53:06.928384" elapsed="0.000000"/>
+</return>
+<arg>${BUTTON}[SELECT]</arg>
+<status status="PASS" start="2026-09-25T11:53:06.358852" elapsed="0.569532"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-09-25T11:53:06.928384" level="INFO">Clicking element '//button[contains(.,"Seleccionar")]'.</msg>
+<arg>${BUTTON}[SELECT]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-25T11:53:06.928384" elapsed="0.142797"/>
+</kw>
+<status status="PASS" start="2026-09-25T11:53:06.358852" elapsed="0.712329"/>
+</branch>
+<branch type="ELSE">
+<kw name="Element No Exist" owner="Search_Customer">
+<arg>${CUSTOMER}[NOT_FOUND]</arg>
+<status status="NOT RUN" start="2026-09-25T11:53:07.071181" elapsed="0.002003"/>
+</kw>
+<status status="NOT RUN" start="2026-09-25T11:53:07.071181" elapsed="0.002003"/>
+</branch>
+<status status="PASS" start="2026-09-25T11:53:06.358852" elapsed="0.714332"/>
+</if>
+<status status="PASS" start="2026-09-25T11:53:05.608091" elapsed="1.465093"/>
+</kw>
+<doc>Busca el cliente por el WOHM790806MCLXYZ12</doc>
+<status status="PASS" start="2026-09-25T11:53:03.167819" elapsed="3.905365"/>
+</kw>
 <doc>Search a customer using one parameter, the parameter is received as an argument.</doc>
-<status status="NOT RUN" start="2026-09-23T14:33:10.266072" elapsed="0.000000"/>
+<status status="PASS" start="2026-09-25T11:53:03.167819" elapsed="3.905365"/>
 </kw>
 <kw name="Validate ABE web" owner="Utils">
-<status status="NOT RUN" start="2026-09-23T14:33:10.267063" elapsed="0.000000"/>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-09-25T11:53:17.080516" level="INFO">Slept 10 seconds.</msg>
+<arg>10s</arg>
+<doc>Pauses execution for the given time.</doc>
+<status status="PASS" start="2026-09-25T11:53:07.077838" elapsed="10.002678"/>
+</kw>
+<kw name="Run Keyword And Return Status" owner="BuiltIn">
+<kw name="Switch Window" owner="SeleniumLibrary">
+<arg>NEW</arg>
+<arg>15s</arg>
+<doc>Switches to browser window matching ``locator``.</doc>
+<status status="PASS" start="2026-09-25T11:53:17.080516" elapsed="0.014320"/>
+</kw>
+<msg time="2026-09-25T11:53:17.094836" level="INFO">${status} = True</msg>
+<var>${status}</var>
+<arg>Switch Window</arg>
+<arg>NEW</arg>
+<arg>15s</arg>
+<doc>Runs the specified keyword and returns the status as a Boolean value.</doc>
+<status status="PASS" start="2026-09-25T11:53:17.080516" elapsed="0.018626"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<kw name="Close Fingerprint" owner="close_fingerprint">
+<kw name="Close Window" owner="SeleniumLibrary">
+<doc>Closes currently opened and selected browser window/tab.</doc>
+<status status="PASS" start="2026-09-25T11:53:17.103206" elapsed="0.099894"/>
+</kw>
+<kw name="Switch Window" owner="SeleniumLibrary">
+<arg>MAIN</arg>
+<doc>Switches to browser window matching ``locator``.</doc>
+<status status="PASS" start="2026-09-25T11:53:17.204436" elapsed="0.016962"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="get_actual_frame" owner="Utils">
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Unselect Frame" owner="SeleniumLibrary">
+<doc>Sets the main frame as the current frame.</doc>
+<status status="PASS" start="2026-09-25T11:53:17.229478" elapsed="0.008167"/>
+</kw>
+<arg>Unselect Frame</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible errorw.</doc>
+<status status="PASS" start="2026-09-25T11:53:17.225447" elapsed="0.012198"/>
+</kw>
+<kw name="Wait Until Element Is Enabled" owner="SeleniumLibrary">
+<arg>${NAVIGATION}[IFR_CONTAINER]</arg>
+<arg>${SYSTEM}[TIMEOUT_500]</arg>
+<doc>Waits until the element ``locator`` is enabled.</doc>
+<status status="PASS" start="2026-09-25T11:53:17.239656" elapsed="0.042049"/>
+</kw>
+<kw name="Get Element Count" owner="SeleniumLibrary">
+<msg time="2026-09-25T11:53:17.295587" level="INFO">${count} = 2</msg>
+<var>${count}</var>
+<arg>${NAVIGATION}[IFR_CONTAINER]</arg>
+<doc>Returns the number of elements matching ``locator``.</doc>
+<status status="PASS" start="2026-09-25T11:53:17.281705" elapsed="0.015913"/>
+</kw>
+<kw name="Convert To String" owner="BuiltIn">
+<msg time="2026-09-25T11:53:17.301658" level="INFO">${value} = 2</msg>
+<var>${value}</var>
+<arg>${count}</arg>
+<doc>Converts the given item to a Unicode string.</doc>
+<status status="PASS" start="2026-09-25T11:53:17.297618" elapsed="0.004040"/>
+</kw>
+<kw name="Replace Values" owner="Yggdrasil">
+<msg time="2026-09-25T11:53:17.303170" level="INFO">${l_iframe} = //iframe[2]</msg>
+<var>${l_iframe}</var>
+<arg>${IFRAME_LIST}[IFRAME]</arg>
+<arg>${value}</arg>
+<doc>Replaces ``value`` in the given ``text``.</doc>
+<status status="PASS" start="2026-09-25T11:53:17.301658" elapsed="0.003541"/>
+</kw>
+<kw name="Get Element Attribute" owner="SeleniumLibrary">
+<msg time="2026-09-25T11:53:17.331526" level="INFO">${source} = https://10.59.10.213/oc/resource.root/bes/omni/standard/artificial/html/customerauth/customerauth.html?menuid=6013120160524101&amp;build=undefined</msg>
+<var>${source}</var>
+<arg>${l_iframe}</arg>
+<arg>src</arg>
+<doc>Returns the value of ``attribute`` from the element ``locator``.</doc>
+<status status="PASS" start="2026-09-25T11:53:17.306061" elapsed="0.025465"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${l_iframe}</arg>
+<arg>${SYSTEM}[TIMEOUT_500]</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-09-25T11:53:17.331526" elapsed="0.026516"/>
+</kw>
+<kw name="Wait Until Keyword Succeeds" owner="BuiltIn">
+<kw name="Select Frame" owner="SeleniumLibrary">
+<msg time="2026-09-25T11:53:17.365172" level="INFO">Selecting frame '//iframe[2]'.</msg>
+<arg>${l_iframe}</arg>
+<doc>Sets frame identified by ``locator`` as the current frame.</doc>
+<status status="PASS" start="2026-09-25T11:53:17.361568" elapsed="0.041360"/>
+</kw>
+<arg>5x</arg>
+<arg>1min</arg>
+<arg>Select Frame</arg>
+<arg>${l_iframe}</arg>
+<doc>Runs the specified keyword and retries if it fails.</doc>
+<status status="PASS" start="2026-09-25T11:53:17.360051" elapsed="0.043392"/>
+</kw>
+<status status="PASS" start="2026-09-25T11:53:17.223406" elapsed="0.180037"/>
+</kw>
+<arg>Get_Actual_Frame</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible errorw.</doc>
+<status status="PASS" start="2026-09-25T11:53:17.221398" elapsed="0.183054"/>
+</kw>
+<kw name="Step" owner="Utils">
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2026-09-25T11:53:17.410741" level="INFO">${STEP_NUMBER} = 7</msg>
+<var>${STEP_NUMBER}</var>
+<arg>${STEP_NUMBER} + 1</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2026-09-25T11:53:17.407538" elapsed="0.003203"/>
+</kw>
+<kw name="Set Suite Variable" owner="BuiltIn">
+<msg time="2026-09-25T11:53:17.415532" level="INFO">${STEP_NUMBER} = 7</msg>
+<arg>${STEP_NUMBER}</arg>
+<doc>Makes the variable available everywhere within the scope of the current suite.</doc>
+<status status="PASS" start="2026-09-25T11:53:17.412352" elapsed="0.004712"/>
+</kw>
+<kw name="Get Time" owner="BuiltIn">
+<msg time="2026-09-25T11:53:17.418596" level="INFO">${timestamp} = 2026-09-25 11:53:17</msg>
+<var>${timestamp}</var>
+<arg>result_format=%Y%m%d_%H%M%S</arg>
+<doc>Returns the given time in the requested format.</doc>
+<status status="PASS" start="2026-09-25T11:53:17.417064" elapsed="0.001532"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>▶ Step ${STEP_NUMBER}: ${description}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-09-25T11:53:17.418596" elapsed="0.001535"/>
+</kw>
+<kw name="Replace String Using Regexp" owner="String">
+<msg time="2026-09-25T11:53:17.421673" level="INFO">${file_name} = 7_2026-09-25_11_53_17_Validar_fingerprint_y_cerrar_ventana.png</msg>
+<var>${file_name}</var>
+<arg>${STEP_NUMBER}_${timestamp}_${description}.png</arg>
+<arg>[^a-zA-Z0-9_.-]</arg>
+<arg>_</arg>
+<doc>Replaces `pattern` in the given `string` with `replace_with`.</doc>
+<status status="PASS" start="2026-09-25T11:53:17.420131" elapsed="0.001542"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2026-09-25T11:53:17.541317" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Cambio%20Oferta%20Primaria%20Sin%20Equipo/7_2026-09-25_11_53_17_Validar_fingerprint_y_cerrar_ventana.png"&gt;&lt;img src="Cambio%20Oferta%20Primaria%20Sin%20Equipo/7_2026-09-25_11_53_17_Validar_fingerprint_y_cerrar_ventana.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>${file_name}</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2026-09-25T11:53:17.423542" elapsed="0.119782"/>
+</kw>
+<arg>Validar fingerprint y cerrar ventana</arg>
+<doc>Keyword que saca el numero de paso y captura evidencia
+reemplazando el capture page screenshoot</doc>
+<status status="PASS" start="2026-09-25T11:53:17.404452" elapsed="0.138872"/>
+</kw>
+<kw name="Run Keyword And Return Status" owner="BuiltIn">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<msg time="2026-09-25T11:53:22.733357" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Cambio%20Oferta%20Primaria%20Sin%20Equipo/selenium-screenshot-3.png"&gt;&lt;img src="Cambio%20Oferta%20Primaria%20Sin%20Equipo/selenium-screenshot-3.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-09-25T11:53:22.733357" level="FAIL">Element '//span[@class='uee-button uee-ui-ele uee-msgbox-ok']' not visible after 5 seconds.</msg>
+<arg>${CLOSE_FINGERPRINT}[FP_ERROR_MSG]</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="FAIL" start="2026-09-25T11:53:17.545354" elapsed="5.193647">Element '//span[@class='uee-button uee-ui-ele uee-msgbox-ok']' not visible after 5 seconds.</status>
+</kw>
+<msg time="2026-09-25T11:53:22.739001" level="INFO">${POPUP_FP} = False</msg>
+<var>${POPUP_FP}</var>
+<arg>Wait Until Element is Visible</arg>
+<arg>${CLOSE_FINGERPRINT}[FP_ERROR_MSG]</arg>
+<doc>Runs the specified keyword and returns the status as a Boolean value.</doc>
+<status status="PASS" start="2026-09-25T11:53:17.545354" elapsed="5.193647"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<arg>'${POPUP_FP}'=='True'</arg>
+<arg>Click Element</arg>
+<arg>${CLOSE_FINGERPRINT}[FP_ERROR_MSG]</arg>
+<doc>Runs the given keyword with the given arguments, if `condition` is true.</doc>
+<status status="PASS" start="2026-09-25T11:53:22.739001" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-09-25T11:53:24.746325" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses execution for the given time.</doc>
+<status status="PASS" start="2026-09-25T11:53:22.739001" elapsed="2.007324"/>
+</kw>
+<kw name="Run Keyword And Return Status" owner="BuiltIn">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<msg time="2026-09-25T11:53:30.773573" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Cambio%20Oferta%20Primaria%20Sin%20Equipo/selenium-screenshot-4.png"&gt;&lt;img src="Cambio%20Oferta%20Primaria%20Sin%20Equipo/selenium-screenshot-4.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-09-25T11:53:30.773573" level="FAIL">Element '//*[@id='besColResizer3']/tbody/tr[1]/td[6]/div/button' not visible after 5 seconds.</msg>
+<arg>${CLOSE_FINGERPRINT}[BTN_SELECT]</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="FAIL" start="2026-09-25T11:53:24.748635" elapsed="6.029847">Element '//*[@id='besColResizer3']/tbody/tr[1]/td[6]/div/button' not visible after 5 seconds.</status>
+</kw>
+<msg time="2026-09-25T11:53:30.778482" level="INFO">${Account1} = False</msg>
+<var>${Account1}</var>
+<arg>Wait Until Element Is Visible</arg>
+<arg>${CLOSE_FINGERPRINT}[BTN_SELECT]</arg>
+<doc>Runs the specified keyword and returns the status as a Boolean value.</doc>
+<status status="PASS" start="2026-09-25T11:53:24.746325" elapsed="6.032157"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<arg>'${Account1}'=='True'</arg>
+<arg>Validation Select Account</arg>
+<doc>Runs the given keyword with the given arguments, if `condition` is true.</doc>
+<status status="PASS" start="2026-09-25T11:53:30.778482" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-09-25T11:53:42.781556" level="INFO">Slept 12 seconds.</msg>
+<arg>12s</arg>
+<doc>Pauses execution for the given time.</doc>
+<status status="PASS" start="2026-09-25T11:53:30.778482" elapsed="12.003074"/>
+</kw>
+<kw name="Unselect Frame" owner="SeleniumLibrary">
+<doc>Sets the main frame as the current frame.</doc>
+<status status="PASS" start="2026-09-25T11:53:42.783589" elapsed="7.510235"/>
+</kw>
+<doc>This keyword is to Close Fingerprint Window and continue with the Scenario.</doc>
+<status status="PASS" start="2026-09-25T11:53:17.101657" elapsed="33.192167"/>
+</kw>
+<arg>${status} == True</arg>
+<arg>Close Fingerprint</arg>
+<doc>Runs the given keyword with the given arguments, if `condition` is true.</doc>
+<status status="PASS" start="2026-09-25T11:53:17.099142" elapsed="33.194682"/>
+</kw>
+<status status="PASS" start="2026-09-25T11:53:07.075831" elapsed="43.217993"/>
 </kw>
 <doc>Realizar login en la aplicacion BES y realizar la busqueda de un suscriptor
 *NOTE: This Gherkin component could be used for all the scripts*</doc>
-<status status="FAIL" start="2026-09-23T14:31:53.409806" elapsed="76.857257">Element not found: //span[contains(text(),"Operaciones Integradas")] | //div[(text()="Operaciones Integradas")]</status>
+<status status="PASS" start="2026-09-25T11:51:48.308751" elapsed="121.985073"/>
 </kw>
 <kw name="Then Cambio De Oferta Primaria" owner="Change_Primary_Offer">
-<doc>Keyword qque realiza el cambio de oferta primaria, con la posibilidad de agregar o dar de baja una oferta suplementaria y agregar un equipo.</doc>
-<status status="NOT RUN" start="2026-09-23T14:33:10.270505" elapsed="0.004084"/>
+<kw name="log_console_and_log" owner="Utils">
+<kw name="Get Time" owner="BuiltIn">
+<msg time="2026-09-25T11:53:50.313486" level="INFO">${_timestamp} = 2026-09-25 11:53:50</msg>
+<var>${_timestamp}</var>
+<doc>Returns the given time in the requested format.</doc>
+<status status="PASS" start="2026-09-25T11:53:50.313486" elapsed="0.005341"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-09-25T11:53:50.318827" level="INFO">*** MODULO DE CAMBIO DE OFERTA PRIMARIA ***</msg>
+<arg>${message}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-09-25T11:53:50.318827" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${_timestamp} -- ${message}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-09-25T11:53:50.318827" elapsed="0.000000"/>
+</kw>
+<arg>*** MODULO DE CAMBIO DE OFERTA PRIMARIA ***</arg>
+<doc>Allow us to enter a message both in console and in the log</doc>
+<status status="PASS" start="2026-09-25T11:53:50.313486" elapsed="0.005341"/>
+</kw>
+<kw name="get_actual_frame" owner="Utils">
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Unselect Frame" owner="SeleniumLibrary">
+<doc>Sets the main frame as the current frame.</doc>
+<status status="PASS" start="2026-09-25T11:53:50.323600" elapsed="9.615873"/>
+</kw>
+<arg>Unselect Frame</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible errorw.</doc>
+<status status="PASS" start="2026-09-25T11:53:50.323600" elapsed="9.615873"/>
+</kw>
+<kw name="Wait Until Element Is Enabled" owner="SeleniumLibrary">
+<arg>${NAVIGATION}[IFR_CONTAINER]</arg>
+<arg>${SYSTEM}[TIMEOUT_500]</arg>
+<doc>Waits until the element ``locator`` is enabled.</doc>
+<status status="PASS" start="2026-09-25T11:53:59.943775" elapsed="8.610650"/>
+</kw>
+<kw name="Get Element Count" owner="SeleniumLibrary">
+<msg time="2026-09-25T11:54:08.563587" level="INFO">${count} = 3</msg>
+<var>${count}</var>
+<arg>${NAVIGATION}[IFR_CONTAINER]</arg>
+<doc>Returns the number of elements matching ``locator``.</doc>
+<status status="PASS" start="2026-09-25T11:54:08.554425" elapsed="0.009162"/>
+</kw>
+<kw name="Convert To String" owner="BuiltIn">
+<msg time="2026-09-25T11:54:08.563587" level="INFO">${value} = 3</msg>
+<var>${value}</var>
+<arg>${count}</arg>
+<doc>Converts the given item to a Unicode string.</doc>
+<status status="PASS" start="2026-09-25T11:54:08.563587" elapsed="0.000000"/>
+</kw>
+<kw name="Replace Values" owner="Yggdrasil">
+<msg time="2026-09-25T11:54:08.563587" level="INFO">${l_iframe} = //iframe[3]</msg>
+<var>${l_iframe}</var>
+<arg>${IFRAME_LIST}[IFRAME]</arg>
+<arg>${value}</arg>
+<doc>Replaces ``value`` in the given ``text``.</doc>
+<status status="PASS" start="2026-09-25T11:54:08.563587" elapsed="0.000000"/>
+</kw>
+<kw name="Get Element Attribute" owner="SeleniumLibrary">
+<msg time="2026-09-25T11:54:08.583518" level="INFO">${source} = https://10.59.10.213/oc/oc/resource.root/bes/changemainoffering/html/bp-changemainoffering-pop-cz.html?menuid=60131010015&amp;build=undefined</msg>
+<var>${source}</var>
+<arg>${l_iframe}</arg>
+<arg>src</arg>
+<doc>Returns the value of ``attribute`` from the element ``locator``.</doc>
+<status status="PASS" start="2026-09-25T11:54:08.563587" elapsed="0.019931"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${l_iframe}</arg>
+<arg>${SYSTEM}[TIMEOUT_500]</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-09-25T11:54:08.587012" elapsed="0.009469"/>
+</kw>
+<kw name="Wait Until Keyword Succeeds" owner="BuiltIn">
+<kw name="Select Frame" owner="SeleniumLibrary">
+<msg time="2026-09-25T11:54:08.596481" level="INFO">Selecting frame '//iframe[3]'.</msg>
+<arg>${l_iframe}</arg>
+<doc>Sets frame identified by ``locator`` as the current frame.</doc>
+<status status="PASS" start="2026-09-25T11:54:08.596481" elapsed="0.037020"/>
+</kw>
+<arg>5x</arg>
+<arg>1min</arg>
+<arg>Select Frame</arg>
+<arg>${l_iframe}</arg>
+<doc>Runs the specified keyword and retries if it fails.</doc>
+<status status="PASS" start="2026-09-25T11:54:08.596481" elapsed="0.037020"/>
+</kw>
+<status status="PASS" start="2026-09-25T11:53:50.318827" elapsed="18.317397"/>
+</kw>
+<kw name="Scroll Element Into View" owner="SeleniumLibrary">
+<arg>${CHANGE_PRIMARY_OFFER}[CHANGE_TYPE]</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" start="2026-09-25T11:54:08.636224" elapsed="0.312232"/>
+</kw>
+<kw name="seleccionar_opcion_dropdown" owner="Utils">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-09-25T11:54:08.951767" level="INFO">Clicking element '//div[@id='changeTypecreditcheckaddinfo']'.</msg>
+<arg>${locator_dropdown}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-25T11:54:08.951767" elapsed="0.134021"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2026-09-25T11:54:09.087795" level="INFO">${opcion_locator} = //span[contains(@title,"Cambio de plan")]</msg>
+<var>${opcion_locator}</var>
+<arg>//span[contains(@title,"${texto_opcion}")]</arg>
+<doc>Returns the given values which can then be assigned to a variable.</doc>
+<status status="PASS" start="2026-09-25T11:54:09.087795" elapsed="0.000000"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${opcion_locator}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-09-25T11:54:09.087795" elapsed="0.030705"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-09-25T11:54:09.118500" level="INFO">Clicking element '//span[contains(@title,"Cambio de plan")]'.</msg>
+<arg>${opcion_locator}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-25T11:54:09.118500" elapsed="0.626035"/>
+</kw>
+<arg>${CHANGE_PRIMARY_OFFER}[CHANGE_TYPE]</arg>
+<arg>${type_offer}</arg>
+<status status="PASS" start="2026-09-25T11:54:08.948456" elapsed="0.798065"/>
+</kw>
+<kw name="verify_element_is_present" owner="Utils">
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${locator}</arg>
+<arg>15s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-09-25T11:54:09.755679" elapsed="0.018040"/>
+</kw>
+<msg time="2026-09-25T11:54:09.773719" level="INFO">${status1} = PASS</msg>
+<msg time="2026-09-25T11:54:09.773719" level="INFO">${value1} = None</msg>
+<var>${status1}</var>
+<var>${value1}</var>
+<arg>Wait Until Element Is Visible</arg>
+<arg>${locator}</arg>
+<arg>15s</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible errorw.</doc>
+<status status="PASS" start="2026-09-25T11:54:09.750536" elapsed="0.023183"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Scroll Element Into View" owner="SeleniumLibrary">
+<arg>${locator}</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" start="2026-09-25T11:54:09.776886" elapsed="0.293175"/>
+</kw>
+<msg time="2026-09-25T11:54:10.070061" level="INFO">${status2} = PASS</msg>
+<msg time="2026-09-25T11:54:10.070061" level="INFO">${value2} = None</msg>
+<var>${status2}</var>
+<var>${value2}</var>
+<arg>Scroll Element Into View</arg>
+<arg>${locator}</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible errorw.</doc>
+<status status="PASS" start="2026-09-25T11:54:09.773719" elapsed="0.296342"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<arg>'${status1}' == 'FAIL' and '${status2}' == 'FAIL'</arg>
+<arg>Run Keywords</arg>
+<arg>Log</arg>
+<arg>Element not found: ${locator}</arg>
+<arg>AND</arg>
+<arg>Fail</arg>
+<arg>Element not found: ${locator}</arg>
+<doc>Runs the given keyword with the given arguments, if `condition` is true.</doc>
+<status status="PASS" start="2026-09-25T11:54:10.075272" elapsed="0.002008"/>
+</kw>
+<kw name="Get WebElement" owner="SeleniumLibrary">
+<msg time="2026-09-25T11:54:10.086743" level="INFO">${WebElement} = &lt;selenium.webdriver.remote.webelement.WebElement (session="db842fe832e54a6b7b13e9360bab1b7c", element="f.1416E1A2FFB0EEDB263876940036E693.d.622C5147DEFDAE80C2E23B347E982F54.e.363")&gt;</msg>
+<var>${WebElement}</var>
+<arg>${locator}</arg>
+<doc>Returns the first WebElement matching the given ``locator``.</doc>
+<status status="PASS" start="2026-09-25T11:54:10.077280" elapsed="0.009463"/>
+</kw>
+<kw name="Highlight" owner="Yggdrasil">
+<arg>${WebElement}</arg>
+<doc>Highlights (blinks) a Selenium Webdriver element</doc>
+<status status="PASS" start="2026-09-25T11:54:10.086743" elapsed="0.226817"/>
+</kw>
+<return>
+<value>${status1}</value>
+<status status="PASS" start="2026-09-25T11:54:10.313560" elapsed="0.002255"/>
+</return>
+<arg>${CHANGE_PRIMARY_OFFER}[PROJECT_TYPE]</arg>
+<status status="PASS" start="2026-09-25T11:54:09.748528" elapsed="0.567287"/>
+</kw>
+<kw name="Step" owner="Utils">
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2026-09-25T11:54:10.319837" level="INFO">${STEP_NUMBER} = 8</msg>
+<var>${STEP_NUMBER}</var>
+<arg>${STEP_NUMBER} + 1</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2026-09-25T11:54:10.317829" elapsed="0.003519"/>
+</kw>
+<kw name="Set Suite Variable" owner="BuiltIn">
+<msg time="2026-09-25T11:54:10.325899" level="INFO">${STEP_NUMBER} = 8</msg>
+<arg>${STEP_NUMBER}</arg>
+<doc>Makes the variable available everywhere within the scope of the current suite.</doc>
+<status status="PASS" start="2026-09-25T11:54:10.321348" elapsed="0.004551"/>
+</kw>
+<kw name="Get Time" owner="BuiltIn">
+<msg time="2026-09-25T11:54:10.329658" level="INFO">${timestamp} = 2026-09-25 11:54:10</msg>
+<var>${timestamp}</var>
+<arg>result_format=%Y%m%d_%H%M%S</arg>
+<doc>Returns the given time in the requested format.</doc>
+<status status="PASS" start="2026-09-25T11:54:10.327911" elapsed="0.004261"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>▶ Step ${STEP_NUMBER}: ${description}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-09-25T11:54:10.335745" elapsed="0.002011"/>
+</kw>
+<kw name="Replace String Using Regexp" owner="String">
+<msg time="2026-09-25T11:54:10.337756" level="INFO">${file_name} = 8_2026-09-25_11_54_10_Seleccionar_tipo_de_cambio_Cambio_de_plan.png</msg>
+<var>${file_name}</var>
+<arg>${STEP_NUMBER}_${timestamp}_${description}.png</arg>
+<arg>[^a-zA-Z0-9_.-]</arg>
+<arg>_</arg>
+<doc>Replaces `pattern` in the given `string` with `replace_with`.</doc>
+<status status="PASS" start="2026-09-25T11:54:10.337756" elapsed="0.000000"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2026-09-25T11:54:10.440346" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Cambio%20Oferta%20Primaria%20Sin%20Equipo/8_2026-09-25_11_54_10_Seleccionar_tipo_de_cambio_Cambio_de_plan.png"&gt;&lt;img src="Cambio%20Oferta%20Primaria%20Sin%20Equipo/8_2026-09-25_11_54_10_Seleccionar_tipo_de_cambio_Cambio_de_plan.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>${file_name}</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2026-09-25T11:54:10.337756" elapsed="0.102590"/>
+</kw>
+<arg>Seleccionar tipo de cambio ${type_offer}</arg>
+<doc>Keyword que saca el numero de paso y captura evidencia
+reemplazando el capture page screenshoot</doc>
+<status status="PASS" start="2026-09-25T11:54:10.315815" elapsed="0.124531"/>
+</kw>
+<kw name="seleccionar_opcion_dropdown" owner="Utils">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-09-25T11:54:10.443889" level="INFO">Clicking element '//div[@id='projecttypecreditcheckaddinfo']'.</msg>
+<arg>${locator_dropdown}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-25T11:54:10.443889" elapsed="0.129976"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2026-09-25T11:54:10.582903" level="INFO">${opcion_locator} = //span[contains(@title,"NINGUNO")]</msg>
+<var>${opcion_locator}</var>
+<arg>//span[contains(@title,"${texto_opcion}")]</arg>
+<doc>Returns the given values which can then be assigned to a variable.</doc>
+<status status="PASS" start="2026-09-25T11:54:10.573865" elapsed="0.009038"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${opcion_locator}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-09-25T11:54:10.583910" elapsed="0.023241"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-09-25T11:54:10.607151" level="INFO">Clicking element '//span[contains(@title,"NINGUNO")]'.</msg>
+<arg>${opcion_locator}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-25T11:54:10.607151" elapsed="0.784399"/>
+</kw>
+<arg>${CHANGE_PRIMARY_OFFER}[PROJECT_TYPE]</arg>
+<arg>${type_project}</arg>
+<status status="PASS" start="2026-09-25T11:54:10.440346" elapsed="0.951204"/>
+</kw>
+<kw name="Step" owner="Utils">
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2026-09-25T11:54:11.393628" level="INFO">${STEP_NUMBER} = 9</msg>
+<var>${STEP_NUMBER}</var>
+<arg>${STEP_NUMBER} + 1</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2026-09-25T11:54:11.393628" elapsed="0.007029"/>
+</kw>
+<kw name="Set Suite Variable" owner="BuiltIn">
+<msg time="2026-09-25T11:54:11.405845" level="INFO">${STEP_NUMBER} = 9</msg>
+<arg>${STEP_NUMBER}</arg>
+<doc>Makes the variable available everywhere within the scope of the current suite.</doc>
+<status status="PASS" start="2026-09-25T11:54:11.402210" elapsed="0.005659"/>
+</kw>
+<kw name="Get Time" owner="BuiltIn">
+<msg time="2026-09-25T11:54:11.407869" level="INFO">${timestamp} = 2026-09-25 11:54:11</msg>
+<var>${timestamp}</var>
+<arg>result_format=%Y%m%d_%H%M%S</arg>
+<doc>Returns the given time in the requested format.</doc>
+<status status="PASS" start="2026-09-25T11:54:11.407869" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>▶ Step ${STEP_NUMBER}: ${description}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-09-25T11:54:11.407869" elapsed="0.003139"/>
+</kw>
+<kw name="Replace String Using Regexp" owner="String">
+<msg time="2026-09-25T11:54:11.411008" level="INFO">${file_name} = 9_2026-09-25_11_54_11_Seleccionar_tipo_de_proyecto_NINGUNO.png</msg>
+<var>${file_name}</var>
+<arg>${STEP_NUMBER}_${timestamp}_${description}.png</arg>
+<arg>[^a-zA-Z0-9_.-]</arg>
+<arg>_</arg>
+<doc>Replaces `pattern` in the given `string` with `replace_with`.</doc>
+<status status="PASS" start="2026-09-25T11:54:11.411008" elapsed="0.002762"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2026-09-25T11:54:11.517202" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Cambio%20Oferta%20Primaria%20Sin%20Equipo/9_2026-09-25_11_54_11_Seleccionar_tipo_de_proyecto_NINGUNO.png"&gt;&lt;img src="Cambio%20Oferta%20Primaria%20Sin%20Equipo/9_2026-09-25_11_54_11_Seleccionar_tipo_de_proyecto_NINGUNO.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>${file_name}</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2026-09-25T11:54:11.413770" elapsed="0.103432"/>
+</kw>
+<arg>Seleccionar tipo de proyecto ${type_project}</arg>
+<doc>Keyword que saca el numero de paso y captura evidencia
+reemplazando el capture page screenshoot</doc>
+<status status="PASS" start="2026-09-25T11:54:11.391550" elapsed="0.125652"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<arg>'${DEVICE}'=='YES'</arg>
+<arg>Evaluacion Preliminar</arg>
+<doc>Runs the given keyword with the given arguments, if `condition` is true.</doc>
+<status status="PASS" start="2026-09-25T11:54:11.517202" elapsed="0.000000"/>
+</kw>
+<kw name="Step" owner="Utils">
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2026-09-25T11:54:11.517202" level="INFO">${STEP_NUMBER} = 10</msg>
+<var>${STEP_NUMBER}</var>
+<arg>${STEP_NUMBER} + 1</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2026-09-25T11:54:11.517202" elapsed="0.000000"/>
+</kw>
+<kw name="Set Suite Variable" owner="BuiltIn">
+<msg time="2026-09-25T11:54:11.526167" level="INFO">${STEP_NUMBER} = 10</msg>
+<arg>${STEP_NUMBER}</arg>
+<doc>Makes the variable available everywhere within the scope of the current suite.</doc>
+<status status="PASS" start="2026-09-25T11:54:11.517202" elapsed="0.008965"/>
+</kw>
+<kw name="Get Time" owner="BuiltIn">
+<msg time="2026-09-25T11:54:11.526167" level="INFO">${timestamp} = 2026-09-25 11:54:11</msg>
+<var>${timestamp}</var>
+<arg>result_format=%Y%m%d_%H%M%S</arg>
+<doc>Returns the given time in the requested format.</doc>
+<status status="PASS" start="2026-09-25T11:54:11.526167" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>▶ Step ${STEP_NUMBER}: ${description}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-09-25T11:54:11.526167" elapsed="0.000000"/>
+</kw>
+<kw name="Replace String Using Regexp" owner="String">
+<msg time="2026-09-25T11:54:11.526167" level="INFO">${file_name} = 10_2026-09-25_11_54_11_Configurar_validacion_biometrica_ABE.png</msg>
+<var>${file_name}</var>
+<arg>${STEP_NUMBER}_${timestamp}_${description}.png</arg>
+<arg>[^a-zA-Z0-9_.-]</arg>
+<arg>_</arg>
+<doc>Replaces `pattern` in the given `string` with `replace_with`.</doc>
+<status status="PASS" start="2026-09-25T11:54:11.526167" elapsed="0.000000"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2026-09-25T11:54:11.613689" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Cambio%20Oferta%20Primaria%20Sin%20Equipo/10_2026-09-25_11_54_11_Configurar_validacion_biometrica_ABE.png"&gt;&lt;img src="Cambio%20Oferta%20Primaria%20Sin%20Equipo/10_2026-09-25_11_54_11_Configurar_validacion_biometrica_ABE.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>${file_name}</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2026-09-25T11:54:11.526167" elapsed="0.087522"/>
+</kw>
+<arg>Configurar validacion biometrica ABE</arg>
+<doc>Keyword que saca el numero de paso y captura evidencia
+reemplazando el capture page screenshoot</doc>
+<status status="PASS" start="2026-09-25T11:54:11.517202" elapsed="0.096487"/>
+</kw>
+<kw name="Configurar ABE Y Continuar" owner="Change_Primary_Offer">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${ABE}[INPUT_BUSQUEDA]</arg>
+<arg>timeout=10s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-09-25T11:54:11.613689" elapsed="0.023482"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-09-25T11:54:11.637171" level="INFO">Clicking element 'id:uee-002'.</msg>
+<arg>${ABE}[INPUT_BUSQUEDA]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-25T11:54:11.637171" elapsed="0.164530"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${ABE}[OPCION_NINGUNO]</arg>
+<arg>timeout=5s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-09-25T11:54:11.803714" elapsed="0.024053"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-09-25T11:54:11.832058" level="INFO">Clicking element 'xpath://span[@title='NINGUNO']'.</msg>
+<arg>${ABE}[OPCION_NINGUNO]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-25T11:54:11.827767" elapsed="0.798593"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${ABE}[BTN_FINGERPRINT]</arg>
+<arg>timeout=10s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-09-25T11:54:12.626360" elapsed="0.019928"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-09-25T11:54:12.646288" level="INFO">Clicking element 'id:btn_fingerPrint'.</msg>
+<arg>${ABE}[BTN_FINGERPRINT]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-25T11:54:12.646288" elapsed="0.361243"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-09-25T11:54:16.007726" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses execution for the given time.</doc>
+<status status="PASS" start="2026-09-25T11:54:13.007531" elapsed="3.000195"/>
+</kw>
+<kw name="Switch Window" owner="SeleniumLibrary">
+<arg>NEW</arg>
+<doc>Switches to browser window matching ``locator``.</doc>
+<status status="PASS" start="2026-09-25T11:54:16.007726" elapsed="0.029709"/>
+</kw>
+<kw name="Close Window" owner="SeleniumLibrary">
+<doc>Closes currently opened and selected browser window/tab.</doc>
+<status status="PASS" start="2026-09-25T11:54:16.037435" elapsed="0.088244"/>
+</kw>
+<kw name="Switch Window" owner="SeleniumLibrary">
+<arg>MAIN</arg>
+<doc>Switches to browser window matching ``locator``.</doc>
+<status status="PASS" start="2026-09-25T11:54:16.126187" elapsed="0.029832"/>
+</kw>
+<kw name="get_actual_frame" owner="Utils">
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Unselect Frame" owner="SeleniumLibrary">
+<doc>Sets the main frame as the current frame.</doc>
+<status status="PASS" start="2026-09-25T11:54:16.163083" elapsed="0.008918"/>
+</kw>
+<arg>Unselect Frame</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible errorw.</doc>
+<status status="PASS" start="2026-09-25T11:54:16.161076" elapsed="0.012936"/>
+</kw>
+<kw name="Wait Until Element Is Enabled" owner="SeleniumLibrary">
+<arg>${NAVIGATION}[IFR_CONTAINER]</arg>
+<arg>${SYSTEM}[TIMEOUT_500]</arg>
+<doc>Waits until the element ``locator`` is enabled.</doc>
+<status status="PASS" start="2026-09-25T11:54:16.174012" elapsed="0.063980"/>
+</kw>
+<kw name="Get Element Count" owner="SeleniumLibrary">
+<msg time="2026-09-25T11:54:16.252299" level="INFO">${count} = 3</msg>
+<var>${count}</var>
+<arg>${NAVIGATION}[IFR_CONTAINER]</arg>
+<doc>Returns the number of elements matching ``locator``.</doc>
+<status status="PASS" start="2026-09-25T11:54:16.237992" elapsed="0.015833"/>
+</kw>
+<kw name="Convert To String" owner="BuiltIn">
+<msg time="2026-09-25T11:54:16.255996" level="INFO">${value} = 3</msg>
+<var>${value}</var>
+<arg>${count}</arg>
+<doc>Converts the given item to a Unicode string.</doc>
+<status status="PASS" start="2026-09-25T11:54:16.253825" elapsed="0.002171"/>
+</kw>
+<kw name="Replace Values" owner="Yggdrasil">
+<msg time="2026-09-25T11:54:16.258004" level="INFO">${l_iframe} = //iframe[3]</msg>
+<var>${l_iframe}</var>
+<arg>${IFRAME_LIST}[IFRAME]</arg>
+<arg>${value}</arg>
+<doc>Replaces ``value`` in the given ``text``.</doc>
+<status status="PASS" start="2026-09-25T11:54:16.258004" elapsed="0.000000"/>
+</kw>
+<kw name="Get Element Attribute" owner="SeleniumLibrary">
+<msg time="2026-09-25T11:54:16.282052" level="INFO">${source} = https://10.59.10.213/oc/oc/resource.root/bes/changemainoffering/html/bp-changemainoffering-pop-cz.html?menuid=60131010015&amp;build=undefined</msg>
+<var>${source}</var>
+<arg>${l_iframe}</arg>
+<arg>src</arg>
+<doc>Returns the value of ``attribute`` from the element ``locator``.</doc>
+<status status="PASS" start="2026-09-25T11:54:16.258004" elapsed="0.025079"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${l_iframe}</arg>
+<arg>${SYSTEM}[TIMEOUT_500]</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-09-25T11:54:16.283617" elapsed="0.023956"/>
+</kw>
+<kw name="Wait Until Keyword Succeeds" owner="BuiltIn">
+<kw name="Select Frame" owner="SeleniumLibrary">
+<msg time="2026-09-25T11:54:16.307573" level="INFO">Selecting frame '//iframe[3]'.</msg>
+<arg>${l_iframe}</arg>
+<doc>Sets frame identified by ``locator`` as the current frame.</doc>
+<status status="PASS" start="2026-09-25T11:54:16.307573" elapsed="0.032350"/>
+</kw>
+<arg>5x</arg>
+<arg>1min</arg>
+<arg>Select Frame</arg>
+<arg>${l_iframe}</arg>
+<doc>Runs the specified keyword and retries if it fails.</doc>
+<status status="PASS" start="2026-09-25T11:54:16.307573" elapsed="0.036135"/>
+</kw>
+<status status="PASS" start="2026-09-25T11:54:16.158042" elapsed="0.185666"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-09-25T11:54:21.348686" level="INFO">Slept 5 seconds.</msg>
+<arg>5s</arg>
+<doc>Pauses execution for the given time.</doc>
+<status status="PASS" start="2026-09-25T11:54:16.343708" elapsed="5.004978"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${BUTTON}[OK]</arg>
+<arg>timeout=10s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-09-25T11:54:21.348686" elapsed="0.047626"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-09-25T11:54:21.396312" level="INFO">Clicking element '//div[@class='msgbox-ok-text']'.</msg>
+<arg>${BUTTON}[OK]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-25T11:54:21.396312" elapsed="0.144023"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${ABE}[BTN_SIGUIENTE]</arg>
+<arg>timeout=10s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-09-25T11:54:21.540335" elapsed="0.025713"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-09-25T11:54:21.572290" level="INFO">Clicking element 'id:btn_next'.</msg>
+<arg>${ABE}[BTN_SIGUIENTE]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-25T11:54:21.566048" elapsed="0.805810"/>
+</kw>
+<doc>Selecciona la opción NINGUNO, invoca el biométrico ABE, cierra el popup y avanza.</doc>
+<status status="PASS" start="2026-09-25T11:54:11.613689" elapsed="10.758169"/>
+</kw>
+<kw name="Busqueda de Oferta Primaria" owner="Change_Primary_Offer">
+<kw name="verify_element_is_present" owner="Utils">
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${locator}</arg>
+<arg>15s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-09-25T11:54:22.383923" elapsed="6.189982"/>
+</kw>
+<msg time="2026-09-25T11:54:28.573905" level="INFO">${status1} = PASS</msg>
+<msg time="2026-09-25T11:54:28.573905" level="INFO">${value1} = None</msg>
+<var>${status1}</var>
+<var>${value1}</var>
+<arg>Wait Until Element Is Visible</arg>
+<arg>${locator}</arg>
+<arg>15s</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible errorw.</doc>
+<status status="PASS" start="2026-09-25T11:54:22.381915" elapsed="6.195985"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Scroll Element Into View" owner="SeleniumLibrary">
+<arg>${locator}</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" start="2026-09-25T11:54:28.586102" elapsed="0.353791"/>
+</kw>
+<msg time="2026-09-25T11:54:28.941911" level="INFO">${status2} = PASS</msg>
+<msg time="2026-09-25T11:54:28.952018" level="INFO">${value2} = None</msg>
+<var>${status2}</var>
+<var>${value2}</var>
+<arg>Scroll Element Into View</arg>
+<arg>${locator}</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible errorw.</doc>
+<status status="PASS" start="2026-09-25T11:54:28.579944" elapsed="0.372074"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<arg>'${status1}' == 'FAIL' and '${status2}' == 'FAIL'</arg>
+<arg>Run Keywords</arg>
+<arg>Log</arg>
+<arg>Element not found: ${locator}</arg>
+<arg>AND</arg>
+<arg>Fail</arg>
+<arg>Element not found: ${locator}</arg>
+<doc>Runs the given keyword with the given arguments, if `condition` is true.</doc>
+<status status="PASS" start="2026-09-25T11:54:28.958608" elapsed="0.005035"/>
+</kw>
+<kw name="Get WebElement" owner="SeleniumLibrary">
+<msg time="2026-09-25T11:54:28.978613" level="INFO">${WebElement} = &lt;selenium.webdriver.remote.webelement.WebElement (session="db842fe832e54a6b7b13e9360bab1b7c", element="f.1416E1A2FFB0EEDB263876940036E693.d.622C5147DEFDAE80C2E23B347E982F54.e.388")&gt;</msg>
+<var>${WebElement}</var>
+<arg>${locator}</arg>
+<doc>Returns the first WebElement matching the given ``locator``.</doc>
+<status status="PASS" start="2026-09-25T11:54:28.963643" elapsed="0.014970"/>
+</kw>
+<kw name="Highlight" owner="Yggdrasil">
+<arg>${WebElement}</arg>
+<doc>Highlights (blinks) a Selenium Webdriver element</doc>
+<status status="PASS" start="2026-09-25T11:54:28.978613" elapsed="0.245389"/>
+</kw>
+<return>
+<value>${status1}</value>
+<status status="PASS" start="2026-09-25T11:54:29.226378" elapsed="0.000000"/>
+</return>
+<arg>${CHANGE_PRIMARY_OFFER}[INPUT_OFFER]</arg>
+<status status="PASS" start="2026-09-25T11:54:22.373874" elapsed="6.852504"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-09-25T11:54:29.226378" level="INFO">Typing text 'TELCEL LIBRE 1' into text field '//input[@id='keyWordInputQueryString']'.</msg>
+<arg>${CHANGE_PRIMARY_OFFER}[INPUT_OFFER]</arg>
+<arg>${primary_offer}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-25T11:54:29.226378" elapsed="0.191388"/>
+</kw>
+<kw name="Step" owner="Utils">
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2026-09-25T11:54:29.417766" level="INFO">${STEP_NUMBER} = 11</msg>
+<var>${STEP_NUMBER}</var>
+<arg>${STEP_NUMBER} + 1</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2026-09-25T11:54:29.417766" elapsed="0.000000"/>
+</kw>
+<kw name="Set Suite Variable" owner="BuiltIn">
+<msg time="2026-09-25T11:54:29.417766" level="INFO">${STEP_NUMBER} = 11</msg>
+<arg>${STEP_NUMBER}</arg>
+<doc>Makes the variable available everywhere within the scope of the current suite.</doc>
+<status status="PASS" start="2026-09-25T11:54:29.417766" elapsed="0.012362"/>
+</kw>
+<kw name="Get Time" owner="BuiltIn">
+<msg time="2026-09-25T11:54:29.433721" level="INFO">${timestamp} = 2026-09-25 11:54:29</msg>
+<var>${timestamp}</var>
+<arg>result_format=%Y%m%d_%H%M%S</arg>
+<doc>Returns the given time in the requested format.</doc>
+<status status="PASS" start="2026-09-25T11:54:29.430128" elapsed="0.006259"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>▶ Step ${STEP_NUMBER}: ${description}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-09-25T11:54:29.436387" elapsed="0.002005"/>
+</kw>
+<kw name="Replace String Using Regexp" owner="String">
+<msg time="2026-09-25T11:54:29.438392" level="INFO">${file_name} = 11_2026-09-25_11_54_29_Seleccionar_Oferta_Primaria_TELCEL_LIBRE_1.png</msg>
+<var>${file_name}</var>
+<arg>${STEP_NUMBER}_${timestamp}_${description}.png</arg>
+<arg>[^a-zA-Z0-9_.-]</arg>
+<arg>_</arg>
+<doc>Replaces `pattern` in the given `string` with `replace_with`.</doc>
+<status status="PASS" start="2026-09-25T11:54:29.438392" elapsed="0.000000"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2026-09-25T11:54:29.564063" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Cambio%20Oferta%20Primaria%20Sin%20Equipo/11_2026-09-25_11_54_29_Seleccionar_Oferta_Primaria_TELCEL_LIBRE_1.png"&gt;&lt;img src="Cambio%20Oferta%20Primaria%20Sin%20Equipo/11_2026-09-25_11_54_29_Seleccionar_Oferta_Primaria_TELCEL_LIBRE_1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>${file_name}</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2026-09-25T11:54:29.438392" elapsed="0.127998"/>
+</kw>
+<arg>Seleccionar Oferta Primaria ${primary_offer}</arg>
+<doc>Keyword que saca el numero de paso y captura evidencia
+reemplazando el capture page screenshoot</doc>
+<status status="PASS" start="2026-09-25T11:54:29.417766" elapsed="0.148624"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-09-25T11:54:32.568013" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses execution for the given time.</doc>
+<status status="PASS" start="2026-09-25T11:54:29.566390" elapsed="3.001623"/>
+</kw>
+<kw name="verify_element_is_present" owner="Utils">
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${locator}</arg>
+<arg>15s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-09-25T11:54:32.569757" elapsed="0.015106"/>
+</kw>
+<msg time="2026-09-25T11:54:32.584863" level="INFO">${status1} = PASS</msg>
+<msg time="2026-09-25T11:54:32.584863" level="INFO">${value1} = None</msg>
+<var>${status1}</var>
+<var>${value1}</var>
+<arg>Wait Until Element Is Visible</arg>
+<arg>${locator}</arg>
+<arg>15s</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible errorw.</doc>
+<status status="PASS" start="2026-09-25T11:54:32.569757" elapsed="0.015106"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Scroll Element Into View" owner="SeleniumLibrary">
+<arg>${locator}</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" start="2026-09-25T11:54:32.584863" elapsed="0.320532"/>
+</kw>
+<msg time="2026-09-25T11:54:32.909527" level="INFO">${status2} = PASS</msg>
+<msg time="2026-09-25T11:54:32.909527" level="INFO">${value2} = None</msg>
+<var>${status2}</var>
+<var>${value2}</var>
+<arg>Scroll Element Into View</arg>
+<arg>${locator}</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible errorw.</doc>
+<status status="PASS" start="2026-09-25T11:54:32.584863" elapsed="0.324664"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<arg>'${status1}' == 'FAIL' and '${status2}' == 'FAIL'</arg>
+<arg>Run Keywords</arg>
+<arg>Log</arg>
+<arg>Element not found: ${locator}</arg>
+<arg>AND</arg>
+<arg>Fail</arg>
+<arg>Element not found: ${locator}</arg>
+<doc>Runs the given keyword with the given arguments, if `condition` is true.</doc>
+<status status="PASS" start="2026-09-25T11:54:32.914162" elapsed="0.004311"/>
+</kw>
+<kw name="Get WebElement" owner="SeleniumLibrary">
+<msg time="2026-09-25T11:54:32.937877" level="INFO">${WebElement} = &lt;selenium.webdriver.remote.webelement.WebElement (session="db842fe832e54a6b7b13e9360bab1b7c", element="f.1416E1A2FFB0EEDB263876940036E693.d.622C5147DEFDAE80C2E23B347E982F54.e.479")&gt;</msg>
+<var>${WebElement}</var>
+<arg>${locator}</arg>
+<doc>Returns the first WebElement matching the given ``locator``.</doc>
+<status status="PASS" start="2026-09-25T11:54:32.918473" elapsed="0.019404"/>
+</kw>
+<kw name="Highlight" owner="Yggdrasil">
+<arg>${WebElement}</arg>
+<doc>Highlights (blinks) a Selenium Webdriver element</doc>
+<status status="PASS" start="2026-09-25T11:54:32.937877" elapsed="0.219121"/>
+</kw>
+<return>
+<value>${status1}</value>
+<status status="PASS" start="2026-09-25T11:54:33.156998" elapsed="0.000000"/>
+</return>
+<arg>${CHANGE_PRIMARY_OFFER}[SEARCH_DEVICE]</arg>
+<status status="PASS" start="2026-09-25T11:54:32.568013" elapsed="0.588985"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-09-25T11:54:33.156998" level="INFO">Clicking element '//div[@id='keyWord']//*[@id='btn_comSearchAttrSearchButtonkeyWord']'.</msg>
+<arg>${CHANGE_PRIMARY_OFFER}[SEARCH_DEVICE]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-25T11:54:33.156998" elapsed="0.276987"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-09-25T11:54:35.438533" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses execution for the given time.</doc>
+<status status="PASS" start="2026-09-25T11:54:33.433985" elapsed="2.006608"/>
+</kw>
+<kw name="Click Element If Visible" owner="Utils">
+<kw name="Run Keyword And Return Status" owner="BuiltIn">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<msg time="2026-09-25T11:54:40.586555" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Cambio%20Oferta%20Primaria%20Sin%20Equipo/selenium-screenshot-5.png"&gt;&lt;img src="Cambio%20Oferta%20Primaria%20Sin%20Equipo/selenium-screenshot-5.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-09-25T11:54:40.588151" level="FAIL">Element '//div[@class='msgbox-ok-text']' not visible after 5 seconds.</msg>
+<arg>${locator}</arg>
+<arg>${timeout}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="FAIL" start="2026-09-25T11:54:35.444291" elapsed="5.151504">Element '//div[@class='msgbox-ok-text']' not visible after 5 seconds.</status>
+</kw>
+<msg time="2026-09-25T11:54:40.595795" level="INFO">${visible} = False</msg>
+<var>${visible}</var>
+<arg>Wait Until Element Is Visible</arg>
+<arg>${locator}</arg>
+<arg>${timeout}</arg>
+<doc>Runs the specified keyword and returns the status as a Boolean value.</doc>
+<status status="PASS" start="2026-09-25T11:54:35.444291" elapsed="5.151504"/>
+</kw>
+<if>
+<branch type="IF" condition="${visible}">
+<kw name="Step" owner="Utils">
+<arg>Click en boton Ok de POPUP</arg>
+<doc>Keyword que saca el numero de paso y captura evidencia
+reemplazando el capture page screenshoot</doc>
+<status status="NOT RUN" start="2026-09-25T11:54:40.597329" elapsed="0.001551"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>${locator}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2026-09-25T11:54:40.598880" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2026-09-25T11:54:40.597329" elapsed="0.001551"/>
+</branch>
+<status status="PASS" start="2026-09-25T11:54:40.597329" elapsed="0.001551"/>
+</if>
+<arg>${BUTTON}[OK]</arg>
+<status status="PASS" start="2026-09-25T11:54:35.442106" elapsed="5.156774"/>
+</kw>
+<kw name="verify_element_is_present" owner="Utils">
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${locator}</arg>
+<arg>15s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-09-25T11:54:40.600437" elapsed="0.018155"/>
+</kw>
+<msg time="2026-09-25T11:54:40.618592" level="INFO">${status1} = PASS</msg>
+<msg time="2026-09-25T11:54:40.620175" level="INFO">${value1} = None</msg>
+<var>${status1}</var>
+<var>${value1}</var>
+<arg>Wait Until Element Is Visible</arg>
+<arg>${locator}</arg>
+<arg>15s</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible errorw.</doc>
+<status status="PASS" start="2026-09-25T11:54:40.600437" elapsed="0.019738"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Scroll Element Into View" owner="SeleniumLibrary">
+<arg>${locator}</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" start="2026-09-25T11:54:40.621704" elapsed="0.305322"/>
+</kw>
+<msg time="2026-09-25T11:54:40.927026" level="INFO">${status2} = PASS</msg>
+<msg time="2026-09-25T11:54:40.927026" level="INFO">${value2} = None</msg>
+<var>${status2}</var>
+<var>${value2}</var>
+<arg>Scroll Element Into View</arg>
+<arg>${locator}</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible errorw.</doc>
+<status status="PASS" start="2026-09-25T11:54:40.620175" elapsed="0.306851"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<arg>'${status1}' == 'FAIL' and '${status2}' == 'FAIL'</arg>
+<arg>Run Keywords</arg>
+<arg>Log</arg>
+<arg>Element not found: ${locator}</arg>
+<arg>AND</arg>
+<arg>Fail</arg>
+<arg>Element not found: ${locator}</arg>
+<doc>Runs the given keyword with the given arguments, if `condition` is true.</doc>
+<status status="PASS" start="2026-09-25T11:54:40.927026" elapsed="0.000000"/>
+</kw>
+<kw name="Get WebElement" owner="SeleniumLibrary">
+<msg time="2026-09-25T11:54:40.935184" level="INFO">${WebElement} = &lt;selenium.webdriver.remote.webelement.WebElement (session="db842fe832e54a6b7b13e9360bab1b7c", element="f.1416E1A2FFB0EEDB263876940036E693.d.622C5147DEFDAE80C2E23B347E982F54.e.552")&gt;</msg>
+<var>${WebElement}</var>
+<arg>${locator}</arg>
+<doc>Returns the first WebElement matching the given ``locator``.</doc>
+<status status="PASS" start="2026-09-25T11:54:40.927026" elapsed="0.008158"/>
+</kw>
+<kw name="Highlight" owner="Yggdrasil">
+<arg>${WebElement}</arg>
+<doc>Highlights (blinks) a Selenium Webdriver element</doc>
+<status status="PASS" start="2026-09-25T11:54:40.935184" elapsed="0.231037"/>
+</kw>
+<return>
+<value>${status1}</value>
+<status status="PASS" start="2026-09-25T11:54:41.166221" elapsed="0.000000"/>
+</return>
+<arg>${CHANGE_PRIMARY_OFFER}[BUTTON_CHOOSE]</arg>
+<status status="PASS" start="2026-09-25T11:54:40.598880" elapsed="0.567341"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-09-25T11:54:41.166221" level="INFO">Clicking button '(//button[contains(.,'Elegir')])[1]'.</msg>
+<arg>${CHANGE_PRIMARY_OFFER}[BUTTON_CHOOSE]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-25T11:54:41.166221" elapsed="0.159270"/>
+</kw>
+<kw name="Click Element If Visible" owner="Utils">
+<kw name="Run Keyword And Return Status" owner="BuiltIn">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<msg time="2026-09-25T11:54:45.411178" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff76725be05+5a55]
+	chromedriver!(No symbol) [0x7ff767183230]
+	chromedriver!(No symbol) [0x7ff766fa6c46]
+	chromedriver!(No symbol) [0x7ff766ff3513]
+	chromedriver!(No symbol) [0x7ff76702b972]
+	chromedriver!(No symbol) [0x7ff767025752]
+	chromedriver!(No symbol) [0x7ff767024ed3]
+	chromedriver!(No symbol) [0x7ff766f6f16b]
+	chromedriver!(No symbol) [0x7ff766f6f7c2]
+	chromedriver!(No symbol) [0x7ff766f6fdf5]
+	chromedriver!GetHandleVerifier [0x7ff76766b1d1+414e21]
+	chromedriver!GetHandleVerifier [0x7ff7676951fb+43ee4b]
+	chromedriver!GetHandleVerifier [0x7ff7676896ce+43331e]
+	chromedriver!GetHandleVerifier [0x7ff76736015e+109dae]
+	chromedriver!(No symbol) [0x7ff767190e85]
+	chromedriver!(No symbol) [0x7ff766f6e59e]
+	chromedriver!GetHandleVerifier [0x7ff767705bdf+4af82f]
+	KERNEL32!BaseThreadInitThunk [0x7ff8b3bbcd87+17]
+	ntdll!RtlUserThreadStart [0x7ff8b5b2caec+2c]
+</msg>
+<msg time="2026-09-25T11:54:45.447773" level="FAIL">InvalidSessionIdException: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=154.0.8037.57); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff76725be05+5a55]
+	chromedriver!(No symbol) [0x7ff767183230]
+	chromedriver!(No symbol) [0x7ff766fa6e4d]
+	chromedriver!(No symbol) [0x7ff766f93eb9]
+	chromedriver!(No symbol) [0x7ff766f93ba1]
+	chromedriver!(No symbol) [0x7ff766f92a16]
+	chromedriver!(No symbol) [0x7ff766fb84dc]
+	chromedriver!(No symbol) [0x7ff7670333c0]
+	chromedriver!(No symbol) [0x7ff767051f4d]
+	chromedriver!(No symbol) [0x7ff766ff4412]
+	chromedriver!(No symbol) [0x7ff766ff5223]
+	chromedriver!GetHandleVerifier [0x7ff76766b1d1+414e21]
+	chromedriver!GetHandleVerifier [0x7ff7676951fb+43ee4b]
+	chromedriver!GetHandleVerifier [0x7ff7676896ce+43331e]
+	chromedriver!GetHandleVerifier [0x7ff76736015e+109dae]
+	chromedriver!(No symbol) [0x7ff767190e85]
+	chromedriver!(No symbol) [0x7ff76718be14]
+	chromedriver!(No symbol) [0x7ff76718bfa4]
+	chromedriver!(No symbol) [0x7ff767176b0c]
+	KERNEL32!BaseThreadInitThunk [0x7ff8b3bbcd87+17]
+	ntdll!RtlUserThreadStart [0x7ff8b5b2caec+2c]
+</msg>
+<arg>${locator}</arg>
+<arg>${timeout}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="FAIL" start="2026-09-25T11:54:41.336213" elapsed="4.157588">InvalidSessionIdException: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=154.0.8037.57); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff76725be05+5a55]
+	chromedriver!(No symbol) [0x7ff767183230]
+	chromedriver!(No symbol) [0x7ff766fa6e4d]
+	chromedriver!(No symbol) [0x7ff766f93eb9]
+	chromedriver!(No symbol) [0x7ff766f93ba1]
+	chromedriver!(No symbol) [0x7ff766f92a16]
+	chromedriver!(No symbol) [0x7ff766fb84dc]
+	chromedriver!(No symbol) [0x7ff7670333c0]
+	chromedriver!(No symbol) [0x7ff767051f4d]
+	chromedriver!(No symbol) [0x7ff766ff4412]
+	chromedriver!(No symbol) [0x7ff766ff5223]
+	chromedriver!GetHandleVerifier [0x7ff76766b1d1+414e21]
+	chromedriver!GetHandleVerifier [0x7ff7676951fb+43ee4b]
+	chromedriver!GetHandleVerifier [0x7ff7676896ce+43331e]
+	chromedriver!GetHandleVerifier [0x7ff76736015e+109dae]
+	chromedriver!(No symbol) [0x7ff767190e85]
+	chromedriver!(No symbol) [0x7ff76718be14]
+	chromedriver!(No symbol) [0x7ff76718bfa4]
+	chromedriver!(No symbol) [0x7ff767176b0c]
+	KERNEL32!BaseThreadInitThunk [0x7ff8b3bbcd87+17]
+	ntdll!RtlUserThreadStart [0x7ff8b5b2caec+2c]
+</status>
+</kw>
+<msg time="2026-09-25T11:54:45.495874" level="INFO">${visible} = False</msg>
+<var>${visible}</var>
+<arg>Wait Until Element Is Visible</arg>
+<arg>${locator}</arg>
+<arg>${timeout}</arg>
+<doc>Runs the specified keyword and returns the status as a Boolean value.</doc>
+<status status="PASS" start="2026-09-25T11:54:41.334019" elapsed="4.163388"/>
+</kw>
+<if>
+<branch type="IF" condition="${visible}">
+<kw name="Step" owner="Utils">
+<arg>Click en boton Ok de POPUP</arg>
+<doc>Keyword que saca el numero de paso y captura evidencia
+reemplazando el capture page screenshoot</doc>
+<status status="NOT RUN" start="2026-09-25T11:54:45.499418" elapsed="0.000000"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>${locator}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2026-09-25T11:54:45.501427" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2026-09-25T11:54:45.497407" elapsed="0.004020"/>
+</branch>
+<status status="PASS" start="2026-09-25T11:54:45.497407" elapsed="0.004020"/>
+</if>
+<arg>${BUTTON}[OK]</arg>
+<status status="PASS" start="2026-09-25T11:54:41.325491" elapsed="4.175936"/>
+</kw>
+<doc>Componente para Buscar la oferta primaria
+y seleccionar la oferta buscada</doc>
+<status status="PASS" start="2026-09-25T11:54:22.371858" elapsed="23.129569"/>
+</kw>
+<kw name="Detalles de Oferta Primaria" owner="Change_Primary_Offer">
+<kw name="Sleep" owner="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses execution for the given time.</doc>
+<status status="FAIL" start="2026-09-25T11:54:45.503941" elapsed="1.894957">Execution terminated by signal</status>
+</kw>
+<kw name="get_actual_frame" owner="Utils">
+<status status="NOT RUN" start="2026-09-25T11:54:47.402237" elapsed="0.001015"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${CHANGE_PRIMARY_OFFER}[PLAN_DETAILS]</arg>
+<arg>${SYSTEM}[TIMEOUT_20]</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" start="2026-09-25T11:54:47.404262" elapsed="0.000000"/>
+</kw>
+<kw name="Scroll Element Into View" owner="SeleniumLibrary">
+<arg>${CHANGE_PRIMARY_OFFER}[PLAN_DETAILS]</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="NOT RUN" start="2026-09-25T11:54:47.405971" elapsed="0.000983"/>
+</kw>
+<kw name="verify_element_is_present" owner="Utils">
+<arg>${CHANGE_PRIMARY_OFFER}[PLAN_DETAILS]</arg>
+<status status="NOT RUN" start="2026-09-25T11:54:47.406954" elapsed="0.000000"/>
+</kw>
+<kw name="verify_element_is_present" owner="Utils">
+<arg>${CHANGE_PRIMARY_OFFER}[SPECS]</arg>
+<status status="NOT RUN" start="2026-09-25T11:54:47.406954" elapsed="0.000000"/>
+</kw>
+<kw name="Step" owner="Utils">
+<arg>Ingresamos a de Detalles del Plan</arg>
+<doc>Keyword que saca el numero de paso y captura evidencia
+reemplazando el capture page screenshoot</doc>
+<status status="NOT RUN" start="2026-09-25T11:54:47.410920" elapsed="0.000000"/>
+</kw>
+<doc>Valida los Detalles de la Oferta Primaria (PLAN)</doc>
+<status status="FAIL" start="2026-09-25T11:54:45.501427" elapsed="1.911003">Execution terminated by signal</status>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<arg>'${ADD_SUPP_OFFER}'=='YES'</arg>
+<arg>Seleccionar Oferta Suplementaria</arg>
+<doc>Runs the given keyword with the given arguments, if `condition` is true.</doc>
+<status status="NOT RUN" start="2026-09-25T11:54:47.412430" elapsed="0.000000"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<arg>'${REMOVE_SUPP_OFFER}'=='YES'</arg>
+<arg>Dar de baja Oferta Suplementaria</arg>
+<doc>Runs the given keyword with the given arguments, if `condition` is true.</doc>
+<status status="NOT RUN" start="2026-09-25T11:54:47.413944" elapsed="0.000000"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<arg>'${DEVICE}'=='YES'</arg>
+<arg>Seleccion de Oferta de Equipo</arg>
+<doc>Runs the given keyword with the given arguments, if `condition` is true.</doc>
+<status status="NOT RUN" start="2026-09-25T11:54:47.416029" elapsed="0.000000"/>
+</kw>
+<kw name="Scroll Element Into View" owner="SeleniumLibrary">
+<arg>${BUTTON}[NEXT]</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="NOT RUN" start="2026-09-25T11:54:47.416029" elapsed="0.000000"/>
+</kw>
+<kw name="verify_element_is_present" owner="Utils">
+<arg>${BUTTON}[NEXT]</arg>
+<status status="NOT RUN" start="2026-09-25T11:54:47.416029" elapsed="0.000000"/>
+</kw>
+<kw name="Step" owner="Utils">
+<arg>Click en boton siguiente</arg>
+<doc>Keyword que saca el numero de paso y captura evidencia
+reemplazando el capture page screenshoot</doc>
+<status status="NOT RUN" start="2026-09-25T11:54:47.419357" elapsed="0.000000"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<arg>${BUTTON}[NEXT]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="NOT RUN" start="2026-09-25T11:54:47.419357" elapsed="0.002009"/>
+</kw>
+<kw name="Validar Modulo De Actividad De Promociones" owner="Change_Primary_Offer">
+<doc>Keyword que valida si se muestra el modulo de actividad de promociones</doc>
+<status status="NOT RUN" start="2026-09-25T11:54:47.422655" elapsed="0.000000"/>
+</kw>
+<doc>Keyword que realiza el cambio de oferta primaria, con la posibilidad de agregar o dar de baja una oferta suplementaria y agregar un equipo.</doc>
+<status status="FAIL" start="2026-09-25T11:53:50.310393" elapsed="57.113818">Execution terminated by signal</status>
 </kw>
 <kw name="Then Verificacion de Detalles de Tarifa con Impresion de contratos" owner="Common">
 <doc>Muestra el apartado de Detalles de Tarifa y realiza la impresion del contrato digital
 realiza la impresion del contrato local y valida el estatus de la orden
 *NOTE : This Gherkin component could be used for all the scripts*</doc>
-<status status="NOT RUN" start="2026-09-23T14:33:10.277676" elapsed="0.000000"/>
+<status status="NOT RUN" start="2026-09-25T11:54:47.432416" elapsed="0.006813"/>
 </kw>
 <kw name="And Logout De BES" owner="Common">
 <doc>Realiza el logout de la aplicacion BES
 *NOTE: This Gherkin component could be used for all the scripts*</doc>
-<status status="NOT RUN" start="2026-09-23T14:33:10.285189" elapsed="0.003602"/>
+<status status="NOT RUN" start="2026-09-25T11:54:47.450559" elapsed="0.003440"/>
 </kw>
 <doc>Validar cambio de oferta primaria sin equipo.
 *Precondition:*
@@ -858,14 +2518,14 @@ realiza la impresion del contrato local y valida el estatus de la orden
 2. Numero de suscriptor valido.</doc>
 <tag>Change Primary Offer</tag>
 <tag>Regresion</tag>
-<status status="FAIL" start="2026-09-23T14:31:52.777495" elapsed="77.514547">Element not found: //span[contains(text(),"Operaciones Integradas")] | //div[(text()="Operaciones Integradas")]</status>
+<status status="FAIL" start="2026-09-25T11:51:47.845146" elapsed="179.616316">Execution terminated by signal</status>
 </test>
 <doc>Esta suite contiene los test cases del archivo Change primary Offer.</doc>
-<status status="FAIL" start="2026-09-23T14:31:50.670185" elapsed="79.644600"/>
+<status status="FAIL" start="2026-09-25T11:51:46.116091" elapsed="181.386121"/>
 </suite>
-<status status="FAIL" start="2026-09-23T14:31:50.660655" elapsed="79.664328"/>
+<status status="FAIL" start="2026-09-25T11:51:46.106754" elapsed="181.403779"/>
 </suite>
-<status status="FAIL" start="2026-09-23T14:31:50.616307" elapsed="79.725245"/>
+<status status="FAIL" start="2026-09-25T11:51:46.055643" elapsed="181.466092"/>
 </suite>
 <statistics>
 <total>
@@ -882,5 +2542,27 @@ realiza la impresion del contrato local y valida el estatus de la orden
 </suite>
 </statistics>
 <errors>
+<msg time="2026-09-25T11:54:45.411178" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff76725be05+5a55]
+	chromedriver!(No symbol) [0x7ff767183230]
+	chromedriver!(No symbol) [0x7ff766fa6c46]
+	chromedriver!(No symbol) [0x7ff766ff3513]
+	chromedriver!(No symbol) [0x7ff76702b972]
+	chromedriver!(No symbol) [0x7ff767025752]
+	chromedriver!(No symbol) [0x7ff767024ed3]
+	chromedriver!(No symbol) [0x7ff766f6f16b]
+	chromedriver!(No symbol) [0x7ff766f6f7c2]
+	chromedriver!(No symbol) [0x7ff766f6fdf5]
+	chromedriver!GetHandleVerifier [0x7ff76766b1d1+414e21]
+	chromedriver!GetHandleVerifier [0x7ff7676951fb+43ee4b]
+	chromedriver!GetHandleVerifier [0x7ff7676896ce+43331e]
+	chromedriver!GetHandleVerifier [0x7ff76736015e+109dae]
+	chromedriver!(No symbol) [0x7ff767190e85]
+	chromedriver!(No symbol) [0x7ff766f6e59e]
+	chromedriver!GetHandleVerifier [0x7ff767705bdf+4af82f]
+	KERNEL32!BaseThreadInitThunk [0x7ff8b3bbcd87+17]
+	ntdll!RtlUserThreadStart [0x7ff8b5b2caec+2c]
+</msg>
 </errors>
 </robot>

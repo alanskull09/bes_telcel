@@ -2,10 +2,10 @@
 Library    SeleniumLibrary
 Library    OperatingSystem
 Library    ../../Libraries/Yggdrasil.py
-Variables    ../Locators.py
-Resource    ../Resources/Common/Utils.resource
-Resource    ../Resources/Change_Primary_Offer/Change_Primary_Offer.resource
-Resource    ../Common/Number_and_SIM.resource
+Variables  ../Locators.py
+Resource   ../Resources/Common/Utils.resource
+Resource   ../Resources/Change_Primary_Offer/Change_Primary_Offer.resource
+Resource   ../Common/Number_and_SIM.resource
 
 *** Variables ***
 ${SCHEME}
@@ -104,7 +104,35 @@ Llenar Informacion de Credito Basico Cliente Nuevo
     verify_element_is_present    ${PNO}[CUESTIONARIO]
     Step    Seleccionar tipo de Autorizacion Cuestionario
     Click Element    ${PNO}[CUESTIONARIO]
-    Click Element    ${BUTTON}[NEXT]
+    
+    # --- 1. VALIDACIÓN FINGER PRINT (ABE) CORREGIDA ---
+    Step    Invocar ABE para validacion de huella
+    Sleep    3s    
+    ${XPATH_ABE}    Set Variable    xpath=//span[contains(normalize-space(), 'Invocar ABE')]
+    Scroll Element Into View         ${XPATH_ABE}
+    Wait Until Element Is Visible    ${XPATH_ABE}    timeout=15s
+    Wait Until Element Is Enabled    ${XPATH_ABE}    timeout=15s
+    click_con_JS    ${XPATH_ABE}
+    
+    Sleep    2s
+    Switch Window                    NEW
+    Close Window
+    Switch Window                    MAIN
+    
+    ${XPATH_OK}    Set Variable    xpath=//div[contains(@class, 'msgbox-ok-text') and contains(normalize-space(), 'OK')]
+    Wait Until Element Is Visible    ${XPATH_OK}    timeout=15s
+    click_con_JS    ${XPATH_OK}
+    Sleep    3s    
+    # ----------------------------------------
+    
+    # --- 2. CLIC EXCLUSIVO EN EL BOTON SIGUIENTE CORREGIDO ---
+    Step    Click en el boton Siguiente post-ABE
+    Scroll Element Into View         id=btn_next
+    Wait Until Element Is Visible    id=btn_next    timeout=15s
+    Wait Until Element Is Enabled    id=btn_next    timeout=15s
+    click_con_JS    id=btn_next
+    # --------------------------------------------------------
+    
     Credicheck Basico Cliente Nuevo
 
 Credicheck Basico Cliente Nuevo
@@ -142,6 +170,11 @@ Generar_IDMEX_aleatorio_cliente_nuevo
     ${DIGITOS}    Generate Random String    8    [NUMBERS]
     ${ID_IDMEX}    Set Variable    IDMEX${DIGITOS}
     RETURN    ${ID_IDMEX}    
+
+Validar Modulo De Actividad De Promociones
+    Step    Validar Modulo de Actividad de Promociones
+    Wait Until Element Is Visible    xpath=//span[@title='NINGUNO']    timeout=10s
+    Click Element                    xpath=//span[@title='NINGUNO']
 
 Verificacion de Credito Final Cliente Nuevo
     Click Element If Visible    ${BUTTON}[CONTINUAR]

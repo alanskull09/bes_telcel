@@ -13,7 +13,7 @@ Cambio de SIM
     ...    *Precondition:*
     ...    1. Credenciales de acceso validas del usuario al CRM.
     ...    2. Numero de suscriptor Pospago valido.
-    ...
+    ...    
     ...    *Test Data:*
     ...    1. Credenciales de acceso validas del usuario al CRM.
     ...    2. Numero de suscriptor abierto valido.
@@ -22,4 +22,4 @@ Cambio de SIM
     Given Login y Busqueda De Suscriptor
     Then Cambio de SIM Card
     Then Verificacion de Detalles de Tarifa con Impresion de contratos
-    And Logout De BES
+    And Logout De BES    

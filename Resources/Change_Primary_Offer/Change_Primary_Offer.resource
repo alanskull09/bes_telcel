@@ -1,10 +1,10 @@
 *** Settings ***
-library    SeleniumLibrary
-library    OperatingSystem
-library    ../../Libraries/Yggdrasil.py
-variables    ../Locators.py
-resource    ../Resources/Common/Utils.resource
-resource    ../Resources/Change_Supplementary_Offer/Change_Supplementary_Offer.resource
+Library    SeleniumLibrary
+Library    OperatingSystem
+Library    ../../Libraries/Yggdrasil.py
+Variables  ../Locators.py
+Resource   ../Resources/Common/Utils.resource
+Resource   ../Resources/Change_Supplementary_Offer/Change_Supplementary_Offer.resource
 
 *** Variables ***
 ${type_offer}
@@ -21,7 +21,7 @@ ${BILLING_CYCLE}
 
 *** Keywords ***
 Cambio De Oferta Primaria
-    [Documentation]    Keyword qque realiza el cambio de oferta primaria, con la posibilidad de agregar o dar de baja una oferta suplementaria y agregar un equipo.
+    [Documentation]    Keyword que realiza el cambio de oferta primaria, con la posibilidad de agregar o dar de baja una oferta suplementaria y agregar un equipo.
     log_console_and_log    *** MODULO DE CAMBIO DE OFERTA PRIMARIA ***
     get_actual_frame
     Scroll Element Into View    ${CHANGE_PRIMARY_OFFER}[CHANGE_TYPE]
@@ -31,9 +31,10 @@ Cambio De Oferta Primaria
     Seleccionar Opcion Dropdown    ${CHANGE_PRIMARY_OFFER}[PROJECT_TYPE]     ${type_project}
     Step    Seleccionar tipo de proyecto ${type_project}
     Run Keyword If    '${DEVICE}'=='YES'    Evaluacion Preliminar
-    verify_element_is_present    ${BUTTON}[NEXT]
-    Step    Click en boton siguiente
-    Click Element    ${BUTTON}[NEXT]
+    
+    Step    Configurar validacion biometrica ABE
+    Configurar ABE Y Continuar
+    
     Busqueda de Oferta Primaria
     Detalles de Oferta Primaria
     #Agrega Oferta Suplementaria
@@ -231,3 +232,28 @@ Agregar Informacion de la Cuenta
     Scroll Element Into View    ${BUTTON}[CONFIRM]
     Click Element    ${BUTTON}[CONFIRM]
 
+Configurar ABE Y Continuar
+    [Documentation]    Selecciona la opción NINGUNO, invoca el biométrico ABE, cierra el popup y avanza.
+    Wait Until Element Is Visible    ${ABE}[INPUT_BUSQUEDA]    timeout=10s
+    Click Element                    ${ABE}[INPUT_BUSQUEDA]
+    Wait Until Element Is Visible    ${ABE}[OPCION_NINGUNO]    timeout=5s
+    Click Element                    ${ABE}[OPCION_NINGUNO]
+    
+    Wait Until Element Is Visible    ${ABE}[BTN_FINGERPRINT]   timeout=10s
+    Click Element                    ${ABE}[BTN_FINGERPRINT]
+    
+    Sleep    3s
+    Switch Window    NEW
+    Close Window
+    Switch Window    MAIN
+    
+    # Recuperamos el contexto del iframe del CRM al regresar a MAIN
+    get_actual_frame
+    
+    # Pausa de seguridad de 5s para que el popup cargue y reciba el foco
+    Sleep    5s
+    Wait Until Element Is Visible    ${BUTTON}[OK]     timeout=10s
+    Click Element                    ${BUTTON}[OK]
+    
+    Wait Until Element Is Visible    ${ABE}[BTN_SIGUIENTE]     timeout=10s
+    Click Element                    ${ABE}[BTN_SIGUIENTE]
