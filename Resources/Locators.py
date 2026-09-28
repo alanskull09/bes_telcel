@@ -414,3 +414,19 @@ ABE = {
     "BTN_OK_MSGBOX": "xpath://div[contains(@class, 'msgbox-ok-text') and text()='OK']",
     "BTN_SIGUIENTE": "id:btn_next"
 }
+
+# --- NUEVOS LOCATORS PARA CAMBIO DE OFERTA SUPLEMENTARIA ---
+NUEVA_OFERTA_SUPLEMENTARIA = {
+    "MENU_HAMBURGUESA": "xpath=//span[@class='categoryH']",
+    "MENU_OPERACIONES_INTEGRADAS": "xpath=//span[text()='Operaciones Integradas']",
+    "MENU_CAMBIO_OFERTA_SUP": "xpath=//a[@title='Cambio de Oferta Suplementaria']",
+    "INPUT_CURP": "id=inputcurpnewTest",
+    "BTN_BUSCAR": "xpath=//span[text()='Buscar']",
+    "BTN_SELECCIONAR_TABLA": "xpath=//button[contains(@class, 'table_template_operation0') and contains(., 'Seleccionar')]",
+    "BTN_SELECCIONAR_OFERTA": "xpath=(//span[text()='Seleccionar'])[last()]",
+    "INPUT_BUSQUEDA_OFERTA": "id=searchlookupConditionchangeofferorderInputQueryString",
+    "BTN_BUSCAR_OFERTA": "id=btn_comSearchAttrSearchButtonsearchlookupConditionchangeofferorder",
+    "BTN_ELEGIR": "xpath=//button[contains(@fire, 'selectOffer')]",
+    "BTN_CONFIRMAR": "xpath=//span[text()='Confirmar']",
+    "BTN_SIGUIENTE": "xpath=//span[text()='Siguiente']"
+}
